@@ -1,0 +1,4022 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 3840
+    height: 2117
+  m_ShowMode: 4
+  m_Title: Game
+  m_RootView: {fileID: 6}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 3840
+    height: 2067
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 130
+  draggingID: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 2934
+    y: 0
+    width: 906
+    height: 2067
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 726
+    height: 1224
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1224
+    width: 2934
+    height: 843
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 3840
+    height: 2117
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 3840
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 2097
+    width: 3840
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2934
+    height: 2067
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 62
+  draggingID: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2934
+    height: 1224
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 38
+  draggingID: 0
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 726
+    y: 0
+    width: 2208
+    height: 1224
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 17}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2934
+    y: 73
+    width: 905
+    height: 2046
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 2
+  activeTab: 2
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2024-11-06T20:50:01.532-06:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys:
+        - Remote branches
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 1
+    disableCreate: 1
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 2024-11-06T20:50:41.143-06:00
+      cacheType: 2
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 2024-11-06T20:50:07.408-06:00
+      cacheType: 1
+    currentBranch:
+      name: master
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches:
+    - name: master
+      tracking: 
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: master
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000006000000000000000
+        - 00000000000000007100000000000000
+        - 00000000000000008000000000000000
+        - 0000000000000000b000000000000000
+        - 0000000000000000c000000000000000
+        - 00000000000000006100000000000000
+        - 00000000000000002000000000000000
+        - 0000000000000000f100000000000000
+        - 00000000000000004100000000000000
+        - 00000000000000005100000000000000
+        - 0000000000000000b100000000000000
+        - 00000000000000004000000000000000
+        - 0000000000000000e100000000000000
+        - 00000000000000009000000000000000
+        - 00000000000000003000000000000000
+        - 00000000000000007000000000000000
+        - 0000000000000000a100000000000000
+        - 0000000000000000d100000000000000
+        - 0000000000000000c100000000000000
+        values:
+        - path: ProjectSettings\AudioManager.asset
+          label: AudioManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\AudioManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
+            projectPath: ProjectSettings\AudioManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\ClusterInputManager.asset
+          label: ClusterInputManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ClusterInputManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
+            projectPath: ProjectSettings\ClusterInputManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\DynamicsManager.asset
+          label: DynamicsManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\DynamicsManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
+            projectPath: ProjectSettings\DynamicsManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\EditorBuildSettings.asset
+          label: EditorBuildSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\EditorBuildSettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
+            projectPath: ProjectSettings\EditorBuildSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\EditorSettings.asset
+          label: EditorSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\EditorSettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
+            projectPath: ProjectSettings\EditorSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\GraphicsSettings.asset
+          label: GraphicsSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\GraphicsSettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
+            projectPath: ProjectSettings\GraphicsSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\InputManager.asset
+          label: InputManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\InputManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
+            projectPath: ProjectSettings\InputManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\MemorySettings.asset
+          label: MemorySettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\MemorySettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
+            projectPath: ProjectSettings\MemorySettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\NavMeshAreas.asset
+          label: NavMeshAreas.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\NavMeshAreas.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
+            projectPath: ProjectSettings\NavMeshAreas.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\Physics2DSettings.asset
+          label: Physics2DSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\Physics2DSettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
+            projectPath: ProjectSettings\Physics2DSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\PresetManager.asset
+          label: PresetManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\PresetManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
+            projectPath: ProjectSettings\PresetManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\ProjectVersion.txt
+          label: ProjectVersion.txt
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectVersion.txt
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
+            projectPath: ProjectSettings\ProjectVersion.txt
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\QualitySettings.asset
+          label: QualitySettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\QualitySettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+            projectPath: ProjectSettings\QualitySettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\TagManager.asset
+          label: TagManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TagManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
+            projectPath: ProjectSettings\TagManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\TimeManager.asset
+          label: TimeManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TimeManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
+            projectPath: ProjectSettings\TimeManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\UnityConnectSettings.asset
+          label: UnityConnectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\UnityConnectSettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
+            projectPath: ProjectSettings\UnityConnectSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\VersionControlSettings.asset
+          label: VersionControlSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\VersionControlSettings.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
+            projectPath: ProjectSettings\VersionControlSettings.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: ProjectSettings\VFXManager.asset
+          label: VFXManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\VFXManager.asset
+            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
+            projectPath: ProjectSettings\VFXManager.asset
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+      folders:
+        keys:
+        - Packages
+        - ProjectSettings
+        - UserSettings
+        values:
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        label: AudioManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\ClusterInputManager.asset
+        label: ClusterInputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\DynamicsManager.asset
+        label: DynamicsManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\EditorBuildSettings.asset
+        label: EditorBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\EditorSettings.asset
+        label: EditorSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\GraphicsSettings.asset
+        label: GraphicsSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\InputManager.asset
+        label: InputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\MemorySettings.asset
+        label: MemorySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\NavMeshAreas.asset
+        label: NavMeshAreas.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\NetworkManager.asset
+        label: NetworkManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\PackageManagerSettings.asset
+        label: PackageManagerSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\Physics2DSettings.asset
+        label: Physics2DSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\PresetManager.asset
+        label: PresetManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\ProjectVersion.txt
+        label: ProjectVersion.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\QualitySettings.asset
+        label: QualitySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\TimeManager.asset
+        label: TimeManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\UnityConnectSettings.asset
+        label: UnityConnectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\URPProjectSettings.asset
+        label: URPProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\URPProjectSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
+          projectPath: ProjectSettings\URPProjectSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\VersionControlSettings.asset
+        label: VersionControlSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\VFXManager.asset
+        label: VFXManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings\XRSettings.asset
+        label: XRSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings\Search.index
+        label: Search.index
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Search.index
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings\Search.settings
+        label: Search.settings
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Search.settings
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: Packages\manifest.json
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\MemorySettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
+      projectPath: ProjectSettings\MemorySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\URPProjectSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
+      projectPath: ProjectSettings\URPProjectSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.index
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
+      projectPath: UserSettings\Search.index
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Search.settings
+      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
+      projectPath: UserSettings\Search.settings
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    changedFilesText: 28 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2024-11-06T20:50:07.408-06:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2024-11-06T20:50:57.550-06:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 2024-11-06T20:50:07.586-06:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
+    logEntries:
+    - commitID: f4747025e5928d411c74330e6e75fa38062706fb
+      mergeA: 
+      mergeB: 
+      authorName: Neon-Gr33n
+      authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitName: Neon-Gr33n
+      summary: Added starter assets
+      description: 
+      timeString: 2024-11-06T20:52:18.000-06:00
+      commitTimeString: 2024-11-06T20:52:18.000-06:00
+      changes:
+      - path: Assets\Assets.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets.meta
+        projectPath: Assets\Assets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map001.png
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png
+        projectPath: Assets\Assets\Map001.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map001.png.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png.meta
+        projectPath: Assets\Assets\Map001.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map003.png
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png
+        projectPath: Assets\Assets\Map003.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map003.png.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png.meta
+        projectPath: Assets\Assets\Map003.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map004.png
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png
+        projectPath: Assets\Assets\Map004.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map004.png.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png.meta
+        projectPath: Assets\Assets\Map004.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map005.png
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png
+        projectPath: Assets\Assets\Map005.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map005.png.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png.meta
+        projectPath: Assets\Assets\Map005.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\music.mp3
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3
+        projectPath: Assets\Assets\music.mp3
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\music.mp3.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3.meta
+        projectPath: Assets\Assets\music.mp3.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+        projectPath: Assets\Settings\Renderer2D.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
+        projectPath: ProjectSettings\NetworkManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\URPProjectSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
+        projectPath: ProjectSettings\URPProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.index
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
+        projectPath: UserSettings\Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 070707ce0edf23e3db8cae4309fe6413aa474c75
+      mergeA: 
+      mergeB: 
+      authorName: Neon-Gr33n
+      authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitName: Neon-Gr33n
+      summary: Initial Commit
+      description: 
+      timeString: 2024-11-06T20:50:56.000-06:00
+      commitTimeString: 2024-11-06T20:50:56.000-06:00
+      changes:
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings.meta
+        projectPath: Assets\Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+        projectPath: Assets\Settings\Renderer2D.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset.meta
+        projectPath: Assets\Settings\Renderer2D.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes.meta
+        projectPath: Assets\Settings\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset
+        projectPath: Assets\Settings\UniversalRP.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset.meta
+        projectPath: Assets\Settings\UniversalRP.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: fb1445b659b959f373dd45a43960b8b86b600c29
+      mergeA: 
+      mergeB: 
+      authorName: Neon-Gr33n
+      authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitName: Neon-Gr33n
+      summary: Initial commit
+      description: 
+      timeString: 2024-11-06T20:50:06.000-06:00
+      commitTimeString: 2024-11-06T20:50:06.000-06:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2024-11-07T15:21:04.013-06:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2024-11-07T15:21:03.997-06:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: f4747025e5928d411c74330e6e75fa38062706fb
+        mergeA: 
+        mergeB: 
+        authorName: Neon-Gr33n
+        authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitName: Neon-Gr33n
+        summary: Added starter assets
+        description: 
+        timeString: 2024-11-06T20:52:18.000-06:00
+        commitTimeString: 2024-11-06T20:52:18.000-06:00
+        changes:
+        - path: Assets\Assets.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets.meta
+          projectPath: Assets\Assets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map001.png
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png
+          projectPath: Assets\Assets\Map001.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map001.png.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png.meta
+          projectPath: Assets\Assets\Map001.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map003.png
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png
+          projectPath: Assets\Assets\Map003.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map003.png.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png.meta
+          projectPath: Assets\Assets\Map003.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map004.png
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png
+          projectPath: Assets\Assets\Map004.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map004.png.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png.meta
+          projectPath: Assets\Assets\Map004.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map005.png
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png
+          projectPath: Assets\Assets\Map005.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map005.png.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png.meta
+          projectPath: Assets\Assets\Map005.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\music.mp3
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3
+          projectPath: Assets\Assets\music.mp3
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\music.mp3.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3.meta
+          projectPath: Assets\Assets\music.mp3.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Renderer2D.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+          projectPath: Assets\Settings\Renderer2D.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\URPProjectSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
+          projectPath: ProjectSettings\URPProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.index
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 070707ce0edf23e3db8cae4309fe6413aa474c75
+        mergeA: 
+        mergeB: 
+        authorName: Neon-Gr33n
+        authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitName: Neon-Gr33n
+        summary: Initial Commit
+        description: 
+        timeString: 2024-11-06T20:50:56.000-06:00
+        commitTimeString: 2024-11-06T20:50:56.000-06:00
+        changes:
+        - path: Assets\Scenes.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings.meta
+          projectPath: Assets\Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Renderer2D.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+          projectPath: Assets\Settings\Renderer2D.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Renderer2D.asset.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset.meta
+          projectPath: Assets\Settings\Renderer2D.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Scenes.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes.meta
+          projectPath: Assets\Settings\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\UniversalRP.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset
+          projectPath: Assets\Settings\UniversalRP.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\UniversalRP.asset.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset.meta
+          projectPath: Assets\Settings\UniversalRP.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: fb1445b659b959f373dd45a43960b8b86b600c29
+        mergeA: 
+        mergeB: 
+        authorName: Neon-Gr33n
+        authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitName: Neon-Gr33n
+        summary: Initial commit
+        description: 
+        timeString: 2024-11-06T20:50:06.000-06:00
+        commitTimeString: 2024-11-06T20:50:06.000-06:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes:
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings.meta
+        projectPath: Assets\Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+        projectPath: Assets\Settings\Renderer2D.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset.meta
+        projectPath: Assets\Settings\Renderer2D.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes.meta
+        projectPath: Assets\Settings\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset
+        projectPath: Assets\Settings\UniversalRP.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset.meta
+        projectPath: Assets\Settings\UniversalRP.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys:
+        - Assets
+        - Assets\Scenes
+        - Assets\Settings
+        - Assets\Settings\Scenes
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings\Scenes
+          label: Scenes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        label: Scenes.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        label: SampleScene.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings.meta
+        label: Settings.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings.meta
+          projectPath: Assets\Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings
+        label: Settings
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        label: Lit2DSceneTemplate.scenetemplate
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        label: Lit2DSceneTemplate.scenetemplate.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset
+        label: Renderer2D.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Renderer2D.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+          projectPath: Assets\Settings\Renderer2D.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\Renderer2D.asset.meta
+        label: Renderer2D.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Renderer2D.asset.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset.meta
+          projectPath: Assets\Settings\Renderer2D.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\Scenes.meta
+        label: Scenes.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Scenes.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes.meta
+          projectPath: Assets\Settings\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\Scenes
+        label: Scenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        label: URP2DSceneTemplate.unity
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        label: URP2DSceneTemplate.unity.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset
+        label: UniversalRP.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\UniversalRP.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset
+          projectPath: Assets\Settings\UniversalRP.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\UniversalRP.asset.meta
+        label: UniversalRP.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\UniversalRP.asset.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset.meta
+          projectPath: Assets\Settings\UniversalRP.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset
+        label: UniversalRenderPipelineGlobalSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UniversalRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        label: UniversalRenderPipelineGlobalSettings.asset.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: C:\Users\BowlO\AppData\Local\GitForUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\BowlO\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+      installSettingsHidden: 0
+    hasRemote: 0
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 2024-11-06T20:50:07.408-06:00
+      cacheType: 1
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: 
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: Neon-Gr33n
+      gitEmail: 41244356+neon-gr33n@users.noreply.github.com
+      newGitName: Neon-Gr33n
+      newGitEmail: 41244356+neon-gr33n@users.noreply.github.com
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 2024-11-06T20:50:01.532-06:00
+        cacheType: 8
+      configSettingsHidden: 0
+    repositorySettingsHidden: 0
+    generalSettingsHidden: 0
+    debugSettingsHidden: 0
+    uiSceneSettingsHidden: 0
+    uiProjectSettingsHidden: 0
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/neon-gr33n/Shadows-of-the-Archives.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/neon-gr33n/Shadows-of-the-Archives.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2024-11-07T14:43:59.474-06:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2024-11-07T14:45:37.109-06:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2024-11-07T14:45:37.099-06:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0.875
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 1297
+    width: 2933
+    height: 822
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+    m_Globs: []
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 71
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: 71
+  m_LastProjectPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 24710000
+    m_LastClickedID: 28964
+    m_ExpandedIDs: 000000002471000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0000000024710000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300004a720000204f0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 5}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 71
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2934
+    y: 73
+    width: 905
+    height: 2046
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 725
+    height: 1203
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: e0700000
+      m_LastClickedID: 28896
+      m_ExpandedIDs: 1afbffffe0700000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 4}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 726
+    y: 73
+    width: 2206
+    height: 1204
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -166, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 2
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 5
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 6
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 7
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 8
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/TrailRenderer
+      index: 9
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 1
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 48, y: -331}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 2
+      id: AINavigationOverlay
+      index: 10
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Path
+      index: 10
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: APV Overlay
+      index: 11
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 48, y: 48}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: UnityEditor.SceneViewCameraOverlay
+      index: 12
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverriden: 0
+    m_OverlaysVisible: 1
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: -2.9948418, y: 1.4503304, z: 0.013450111}
+    speed: 2
+    m_Value: {x: -2.9948418, y: 1.4503304, z: 0.013450111}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 8.654987
+    speed: 2
+    m_Value: 8.654987
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1.0005
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 726
+    y: 73
+    width: 2206
+    height: 1203
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1280, y: 720}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -640
+    m_HBaseRangeMax: 640
+    m_VBaseRangeMin: -360
+    m_VBaseRangeMax: 360
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 2206
+      height: 1182
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 1103, y: 591}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -1103
+      y: -591
+      width: 2206
+      height: 1182
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 2206, y: 1203}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2249
+    y: 726.5
+    width: 920
+    height: 250
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
