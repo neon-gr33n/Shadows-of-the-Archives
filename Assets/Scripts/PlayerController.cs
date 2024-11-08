@@ -8,7 +8,9 @@ using UnityEngine;
 /// Simply processes user input to move the player
 /// </summary>
 public class PlayerController : MonoBehaviour
-{   
+{
+    public int WalkSpeed = 2;
+    public int RunSpeed = 4;
     private Rigidbody2D rb;
     [SerializeField] private float movementSpeed = 4f;
     [SerializeField] private UnityEngine.Vector2 movement;
@@ -26,10 +28,10 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isRunning) {
             isRunning = true;
-            movementSpeed *= 2;
+            movementSpeed = RunSpeed;
         } else if(Input.GetKeyUp(KeyCode.LeftShift)) {
             isRunning = false;
-            movementSpeed = 3;
+            movementSpeed = WalkSpeed;
         }
     }
 
