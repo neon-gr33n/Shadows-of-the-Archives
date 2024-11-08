@@ -16,10 +16,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 3840
-    height: 2117
+    width: 1920
+    height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 3840
-    height: 2067
+    width: 1920
+    height: 947
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 130
+  controlID: 113
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -65,18 +65,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2934
+    x: 1287
     y: 0
-    width: 906
-    height: 2067
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+    width: 633
+    height: 947
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 16}
   - {fileID: 12}
+  - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,13 +95,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 726
-    height: 1224
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    width: 315
+    height: 561
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -119,15 +120,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1224
-    width: 2934
-    height: 843
+    y: 561
+    width: 1287
+    height: 386
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
+  - {fileID: 15}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -150,8 +151,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 3840
-    height: 2117
+    width: 1920
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -175,7 +176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 3840
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -196,8 +197,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 2097
-    width: 3840
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -220,8 +221,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2934
-    height: 2067
+    width: 1287
+    height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
@@ -246,8 +247,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2934
-    height: 1224
+    width: 1287
+    height: 561
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -263,24 +264,100 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 726
+    x: 315
     y: 0
-    width: 2208
-    height: 1224
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+    width: 972
+    height: 561
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 18}
+  - {fileID: 19}
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tile Palette
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1287
+    y: 73
+    width: 632
+    height: 926
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
+  m_Name: SpriteEditorWindow
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 360, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Sprite Editor
+    m_Image: {fileID: 2800000, guid: b7784190913354d4fb9b7f77888f915f, type: 3}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 315
+    y: 73
+    width: 970
+    height: 540
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_ShowAlpha: 0
+  m_MipLevel: 0
+  m_Zoom: 1.5719056
+  m_ScrollPosition: {x: 209.92961, y: -191.42798}
+  m_SelectedObject: {fileID: 0}
+  m_SelectedSpriteRectGUID: 9ba3aade8fae273418768ac7ce70b576
+  m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpritePhysicsShapeModule
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,10 +377,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2934
+    x: 1287
     y: 73
-    width: 905
-    height: 2046
+    width: 632
+    height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -317,13 +394,13 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
+  currentBranchAndRemoteHasUpdate: 1
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 2
-  activeTab: 2
+  changeTab: 3
+  activeTab: 3
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -460,9 +537,9 @@ MonoBehaviour:
       tracking: 
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -470,30 +547,37 @@ MonoBehaviour:
     treeChanges:
       assets:
         keys:
-        - 00000000000000006000000000000000
-        - 00000000000000007100000000000000
-        - 00000000000000008000000000000000
-        - 0000000000000000b000000000000000
-        - 0000000000000000c000000000000000
-        - 00000000000000006100000000000000
-        - 00000000000000002000000000000000
-        - 0000000000000000f100000000000000
-        - 00000000000000004100000000000000
-        - 00000000000000005100000000000000
-        - 0000000000000000b100000000000000
-        - 00000000000000004000000000000000
-        - 0000000000000000e100000000000000
+        - 00000000000000001000000000000000
+        - 1f95b79a73bc9e344a11ba0a4e056aff
+        - 97403e2456c36ad4ba500b586cec8058
+        - 180f562ba2748844081880c32af9b44f
+        - 0348d1b423fe65445b233809494fcb64
+        - 6bce0685105fbe845a4b256b5744ec7e
+        - 5cfd4cf55dd63eb4cbb555e3278420f7
+        - 5c8c2c0b70456124d8e993d724dec968
+        - 2ae9d54b15e52f24e994c9eb8079c240
+        - b87b5740cda6f184090663917d64f7b9
+        - 511762f3e50594e4dbf487cdf0ed5ffe
+        - 779680be8f577904f8e6a7bc03fc94c2
+        - 475a261ec181d1b4bab5aec7e3e93348
+        - 0ae6d2a9c7e13c54d8f820064a06082c
+        - 87ab5abea7fea194f9a1d6542ecb8b82
+        - 99a163b3e27f31f4f985c55489dcf12e
+        - 2475f05cd43a4d24da39c0c29d867eea
+        - 10ed975700df294448f78c42d9983c71
+        - 5d6524f4d72f4134bbb6d24583a0fd22
+        - 568bc1d3469dcd649b59f2da5fdd6711
+        - 60235c3c9973d22418b5617005c8bf8e
+        - 61c1e2ab38b034a4dbb42b2b0afa5855
+        - 8c9cfa26abfee488c85f1582747f6a02
+        - 9ef445079bfd2df45a2e5d023e662358
+        - f8da6302ddbd04242ab3772b40e58118
         - 00000000000000009000000000000000
-        - 00000000000000003000000000000000
-        - 00000000000000007000000000000000
-        - 0000000000000000a100000000000000
-        - 0000000000000000d100000000000000
-        - 0000000000000000c100000000000000
         values:
-        - path: ProjectSettings\AudioManager.asset
-          label: AudioManager.asset
-          level: 1
-          isFolder: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
@@ -502,17 +586,89 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\AudioManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
-            projectPath: ProjectSettings\AudioManager.asset
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets
+          label: Assets
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets\horror_kit
+          label: horror_kit
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets\horror_kit\48px+MVMZ
+          label: 48px+MVMZ
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+          label: horror-A1.png
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+            projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\ClusterInputManager.asset
-          label: ClusterInputManager.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+          label: horror-A2.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -520,17 +676,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\ClusterInputManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
-            projectPath: ProjectSettings\ClusterInputManager.asset
+            path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+            projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\DynamicsManager.asset
-          label: DynamicsManager.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+          label: horror-B.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -538,17 +694,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\DynamicsManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
-            projectPath: ProjectSettings\DynamicsManager.asset
+            path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+            projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\EditorBuildSettings.asset
-          label: EditorBuildSettings.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+          label: non-rm-a1-square.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -556,17 +712,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\EditorBuildSettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
-            projectPath: ProjectSettings\EditorBuildSettings.asset
+            path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+            projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\EditorSettings.asset
-          label: EditorSettings.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+          label: non-rm-a2-square.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -574,16 +730,16 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\EditorSettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
-            projectPath: ProjectSettings\EditorSettings.asset
+            path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+            projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\GraphicsSettings.asset
-          label: GraphicsSettings.asset
-          level: 1
-          isFolder: 0
+        - path: Assets\Assets\horror_kit\fog
+          label: fog
+          level: 3
+          isFolder: 1
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
@@ -592,17 +748,35 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\GraphicsSettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
-            projectPath: ProjectSettings\GraphicsSettings.asset
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets\horror_kit\fog\fogblack.png
+          label: fogblack.png
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Assets\horror_kit\fog\fogblack.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png
+            projectPath: Assets\Assets\horror_kit\fog\fogblack.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\InputManager.asset
-          label: InputManager.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\fog\fogwhite.png
+          label: fogwhite.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -610,17 +784,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\InputManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
-            projectPath: ProjectSettings\InputManager.asset
+            path: Assets\Assets\horror_kit\fog\fogwhite.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png
+            projectPath: Assets\Assets\horror_kit\fog\fogwhite.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\MemorySettings.asset
-          label: MemorySettings.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\fog\Haze white.png
+          label: Haze white.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -628,17 +802,18 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\MemorySettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
-            projectPath: ProjectSettings\MemorySettings.asset
+            path: Assets\Assets\horror_kit\fog\Haze white.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
+              white.png
+            projectPath: Assets\Assets\horror_kit\fog\Haze white.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\NavMeshAreas.asset
-          label: NavMeshAreas.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\fog\Haze.png
+          label: Haze.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -646,17 +821,17 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\NavMeshAreas.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
-            projectPath: ProjectSettings\NavMeshAreas.asset
+            path: Assets\Assets\horror_kit\fog\Haze.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png
+            projectPath: Assets\Assets\horror_kit\fog\Haze.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\Physics2DSettings.asset
-          label: Physics2DSettings.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\fog\side shade white.png
+          label: side shade white.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -664,17 +839,18 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\Physics2DSettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
-            projectPath: ProjectSettings\Physics2DSettings.asset
+            path: Assets\Assets\horror_kit\fog\side shade white.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+              shade white.png
+            projectPath: Assets\Assets\horror_kit\fog\side shade white.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\PresetManager.asset
-          label: PresetManager.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\fog\side shade.png
+          label: side shade.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -682,17 +858,18 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\PresetManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
-            projectPath: ProjectSettings\PresetManager.asset
+            path: Assets\Assets\horror_kit\fog\side shade.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+              shade.png
+            projectPath: Assets\Assets\horror_kit\fog\side shade.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\ProjectSettings.asset
-          label: ProjectSettings.asset
-          level: 1
+        - path: Assets\Assets\horror_kit\fog\watery fog white.png
+          label: watery fog white.png
+          level: 4
           isFolder: 0
-          isContainer: 0
+          isContainer: 1
           isCollapsed: 0
           isHidden: 0
           isActive: 0
@@ -700,15 +877,109 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\ProjectSettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
-            projectPath: ProjectSettings\ProjectSettings.asset
+            path: Assets\Assets\horror_kit\fog\watery fog white.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+              fog white.png
+            projectPath: Assets\Assets\horror_kit\fog\watery fog white.png
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\ProjectVersion.txt
-          label: ProjectVersion.txt
+        - path: Assets\Assets\horror_kit\fog\watery fog.png
+          label: watery fog.png
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Assets\horror_kit\fog\watery fog.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+              fog.png
+            projectPath: Assets\Assets\horror_kit\fog\watery fog.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Assets\horror_kit\fog\wispy black clouds.png
+          label: wispy black clouds.png
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Assets\horror_kit\fog\wispy black clouds.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+              black clouds.png
+            projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Assets\horror_kit\fog\wispy white clouds.png
+          label: wispy white clouds.png
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Assets\horror_kit\fog\wispy white clouds.png
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+              white clouds.png
+            projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Assets\Library.prefab
+          label: Library.prefab
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Assets\Library.prefab
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab
+            projectPath: Assets\Assets\Library.prefab
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scenes
+          label: Scenes
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
@@ -718,9 +989,45 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\ProjectVersion.txt
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
-            projectPath: ProjectSettings\ProjectVersion.txt
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\ConfigHolder.cs
+          label: ConfigHolder.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\ConfigHolder.cs
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs
+            projectPath: Assets\Scripts\ConfigHolder.cs
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
@@ -737,110 +1044,133 @@ MonoBehaviour:
           isLocked: 0
           gitStatusEntry:
             path: ProjectSettings\QualitySettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
             projectPath: ProjectSettings\QualitySettings.asset
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TimeManager.asset
-          label: TimeManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TimeManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
-            projectPath: ProjectSettings\TimeManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\UnityConnectSettings.asset
-          label: UnityConnectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\UnityConnectSettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
-            projectPath: ProjectSettings\UnityConnectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VersionControlSettings.asset
-          label: VersionControlSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VersionControlSettings.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
-            projectPath: ProjectSettings\VersionControlSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VFXManager.asset
-          label: VFXManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VFXManager.asset
-            fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
-            projectPath: ProjectSettings\VFXManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
-        - Packages
+        - Assets
+        - Assets\Assets
+        - Assets\Assets\horror_kit
+        - Assets\Assets\horror_kit\48px+MVMZ
+        - Assets\Assets\horror_kit\fog
+        - Assets\Scenes
+        - Assets\Scripts
         - ProjectSettings
-        - UserSettings
         values:
-        - path: Packages
-          label: Packages
+        - path: Assets
+          label: Assets
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets
+          label: Assets
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets\horror_kit
+          label: horror_kit
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets\horror_kit\48px+MVMZ
+          label: 48px+MVMZ
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Assets\horror_kit\fog
+          label: fog
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -858,24 +1188,6 @@ MonoBehaviour:
             workTreeStatus: 0
         - path: ProjectSettings
           label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
           level: 0
           isFolder: 1
           isContainer: 0
@@ -920,8 +1232,26 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Packages
-        label: Packages
+      - path: .vsconfig
+        label: .vsconfig
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vsconfig
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets
+        label: Assets
         level: 0
         isFolder: 1
         isContainer: 0
@@ -938,9 +1268,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
+      - path: Assets\Assets
+        label: Assets
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Assets\horror_kit.meta
+        label: horror_kit.meta
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -950,15 +1298,33 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
-          projectPath: Packages\manifest.json
+          path: Assets\Assets\horror_kit.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit.meta
+          projectPath: Assets\Assets\horror_kit.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
+      - path: Assets\Assets\horror_kit
+        label: horror_kit
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Assets\horror_kit\48px+MVMZ.meta
+        label: 48px+MVMZ.meta
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -968,9 +1334,779 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
-          projectPath: Packages\packages-lock.json
+          path: Assets\Assets\horror_kit\48px+MVMZ.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ.meta
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ
+        label: 48px+MVMZ
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+        label: horror-A1.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+        label: horror-A1.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+        label: horror-A2.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+        label: horror-A2.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+        label: horror-B.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+        label: horror-B.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+        label: non-rm-a1-square.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+        label: non-rm-a1-square.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+        label: non-rm-a2-square.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+        label: non-rm-a2-square.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog.meta
+        label: fog.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog.meta
+          projectPath: Assets\Assets\horror_kit\fog.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog
+        label: fog
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Assets\horror_kit\fog\fogblack.png
+        label: fogblack.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\fogblack.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png
+          projectPath: Assets\Assets\horror_kit\fog\fogblack.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\fogblack.png.meta
+        label: fogblack.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\fogblack.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\fogblack.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\fogwhite.png
+        label: fogwhite.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\fogwhite.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png
+          projectPath: Assets\Assets\horror_kit\fog\fogwhite.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\fogwhite.png.meta
+        label: fogwhite.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\fogwhite.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\fogwhite.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\Haze white.png
+        label: Haze white.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\Haze white.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
+            white.png
+          projectPath: Assets\Assets\horror_kit\fog\Haze white.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\Haze white.png.meta
+        label: Haze white.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\Haze white.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
+            white.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\Haze white.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\Haze.png
+        label: Haze.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\Haze.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png
+          projectPath: Assets\Assets\horror_kit\fog\Haze.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\Haze.png.meta
+        label: Haze.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\Haze.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\Haze.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\side shade white.png
+        label: side shade white.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\side shade white.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+            shade white.png
+          projectPath: Assets\Assets\horror_kit\fog\side shade white.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\side shade white.png.meta
+        label: side shade white.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\side shade white.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+            shade white.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\side shade white.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\side shade.png
+        label: side shade.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\side shade.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+            shade.png
+          projectPath: Assets\Assets\horror_kit\fog\side shade.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\side shade.png.meta
+        label: side shade.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\side shade.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+            shade.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\side shade.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\watery fog white.png
+        label: watery fog white.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\watery fog white.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+            fog white.png
+          projectPath: Assets\Assets\horror_kit\fog\watery fog white.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\watery fog white.png.meta
+        label: watery fog white.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\watery fog white.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+            fog white.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\watery fog white.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\watery fog.png
+        label: watery fog.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\watery fog.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+            fog.png
+          projectPath: Assets\Assets\horror_kit\fog\watery fog.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\watery fog.png.meta
+        label: watery fog.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\watery fog.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+            fog.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\watery fog.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\wispy black clouds.png
+        label: wispy black clouds.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\wispy black clouds.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+            black clouds.png
+          projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
+        label: wispy black clouds.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+            black clouds.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\wispy white clouds.png
+        label: wispy white clouds.png
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\wispy white clouds.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+            white clouds.png
+          projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
+        label: wispy white clouds.png.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+            white clouds.png.meta
+          projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\Library.meta
+        label: Library.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\Library.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.meta
+          projectPath: Assets\Assets\Library.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\Library.prefab
+        label: Library.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\Library.prefab
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab
+          projectPath: Assets\Assets\Library.prefab
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\Library.prefab.meta
+        label: Library.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\Library.prefab.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab.meta
+          projectPath: Assets\Assets\Library.prefab.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Assets\Map004.png.meta
+        label: Map004.png.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Assets\Map004.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
+          projectPath: Assets\Assets\Map004.png.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\ConfigHolder.cs
+        label: ConfigHolder.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\ConfigHolder.cs
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs
+          projectPath: Assets\Scripts\ConfigHolder.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scripts\ConfigHolder.cs.meta
+        label: ConfigHolder.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\ConfigHolder.cs.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs.meta
+          projectPath: Assets\Scripts\ConfigHolder.cs.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -992,8 +2128,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
+      - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+        label: BurstAotSettings_StandaloneWindows.json
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1004,14 +2140,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
-          projectPath: ProjectSettings\AudioManager.asset
+          path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+          projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
+      - path: ProjectSettings\BurstAotSettings_WebGL.json
+        label: BurstAotSettings_WebGL.json
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1022,14 +2158,14 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
-          projectPath: ProjectSettings\ClusterInputManager.asset
+          path: ProjectSettings\BurstAotSettings_WebGL.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_WebGL.json
+          projectPath: ProjectSettings\BurstAotSettings_WebGL.json
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
+      - path: ProjectSettings\CommonBurstAotSettings.json
+        label: CommonBurstAotSettings.json
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1040,225 +2176,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\NetworkManager.asset
-        label: NetworkManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
-          projectPath: ProjectSettings\NetworkManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
+          path: ProjectSettings\CommonBurstAotSettings.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\CommonBurstAotSettings.json
+          projectPath: ProjectSettings\CommonBurstAotSettings.json
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1275,157 +2195,13 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
           projectPath: ProjectSettings\QualitySettings.asset
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\URPProjectSettings.asset
-        label: URPProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\URPProjectSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
-          projectPath: ProjectSettings\URPProjectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
-          projectPath: ProjectSettings\XRSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
+          workTreeStatus: 3
+      - path: ProjectSettings\ShaderGraphSettings.asset
+        label: ShaderGraphSettings.asset
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1436,45 +2212,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Search.index
-        label: Search.index
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.index
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
-          projectPath: UserSettings\Search.index
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Search.settings
-        label: Search.settings
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.settings
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
-          projectPath: UserSettings\Search.settings
+          path: ProjectSettings\ShaderGraphSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ShaderGraphSettings.asset
+          projectPath: ProjectSettings\ShaderGraphSettings.asset
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1498,188 +2238,411 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Packages\manifest.json
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
-      projectPath: Packages\manifest.json
+    - path: .vsconfig
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vsconfig
+      projectPath: .vsconfig
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Packages\packages-lock.json
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
-      projectPath: Packages\packages-lock.json
+    - path: Assets\Assets\horror_kit.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit.meta
+      projectPath: Assets\Assets\horror_kit.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\AudioManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
-      projectPath: ProjectSettings\AudioManager.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\ClusterInputManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
-      projectPath: ProjectSettings\ClusterInputManager.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\DynamicsManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
-      projectPath: ProjectSettings\DynamicsManager.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
-      projectPath: ProjectSettings\EditorBuildSettings.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\EditorSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
-      projectPath: ProjectSettings\EditorSettings.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
-      projectPath: ProjectSettings\GraphicsSettings.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\InputManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
-      projectPath: ProjectSettings\InputManager.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\MemorySettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
-      projectPath: ProjectSettings\MemorySettings.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\NavMeshAreas.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
-      projectPath: ProjectSettings\NavMeshAreas.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\NetworkManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
-      projectPath: ProjectSettings\NetworkManager.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\PackageManagerSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
-      projectPath: ProjectSettings\PackageManagerSettings.asset
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\Physics2DSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
-      projectPath: ProjectSettings\Physics2DSettings.asset
+    - path: Assets\Assets\horror_kit\fog.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog.meta
+      projectPath: Assets\Assets\horror_kit\fog.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
-      projectPath: ProjectSettings\PresetManager.asset
+    - path: Assets\Assets\horror_kit\fog\fogblack.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png
+      projectPath: Assets\Assets\horror_kit\fog\fogblack.png
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
-      projectPath: ProjectSettings\ProjectSettings.asset
+    - path: Assets\Assets\horror_kit\fog\fogblack.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\fogblack.png.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
-      projectPath: ProjectSettings\ProjectVersion.txt
+    - path: Assets\Assets\horror_kit\fog\fogwhite.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png
+      projectPath: Assets\Assets\horror_kit\fog\fogwhite.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\fogwhite.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\fogwhite.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze white.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
+        white.png
+      projectPath: Assets\Assets\horror_kit\fog\Haze white.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze white.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
+        white.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\Haze white.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png
+      projectPath: Assets\Assets\horror_kit\fog\Haze.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\Haze.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade white.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade white.png
+      projectPath: Assets\Assets\horror_kit\fog\side shade white.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade white.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade white.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\side shade white.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade.png
+      projectPath: Assets\Assets\horror_kit\fog\side shade.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\side shade.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog white.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog white.png
+      projectPath: Assets\Assets\horror_kit\fog\watery fog white.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog white.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog white.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\watery fog white.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog.png
+      projectPath: Assets\Assets\horror_kit\fog\watery fog.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\watery fog.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy black clouds.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        black clouds.png
+      projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        black clouds.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy white clouds.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        white clouds.png
+      projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        white clouds.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Library.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.meta
+      projectPath: Assets\Assets\Library.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Library.prefab
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab
+      projectPath: Assets\Assets\Library.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Library.prefab.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab.meta
+      projectPath: Assets\Assets\Library.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Map004.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
+      projectPath: Assets\Assets\Map004.png.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\ConfigHolder.cs
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs
+      projectPath: Assets\Scripts\ConfigHolder.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\ConfigHolder.cs.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs.meta
+      projectPath: Assets\Scripts\ConfigHolder.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\BurstAotSettings_WebGL.json
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_WebGL.json
+      projectPath: ProjectSettings\BurstAotSettings_WebGL.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\CommonBurstAotSettings.json
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\CommonBurstAotSettings.json
+      projectPath: ProjectSettings\CommonBurstAotSettings.json
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: ProjectSettings\QualitySettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
       projectPath: ProjectSettings\QualitySettings.asset
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TagManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
-      projectPath: ProjectSettings\TagManager.asset
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ShaderGraphSettings.asset
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ShaderGraphSettings.asset
+      projectPath: ProjectSettings\ShaderGraphSettings.asset
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: ProjectSettings\TimeManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
-      projectPath: ProjectSettings\TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
-      projectPath: ProjectSettings\UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\URPProjectSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
-      projectPath: ProjectSettings\URPProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VersionControlSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
-      projectPath: ProjectSettings\VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VFXManager.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
-      projectPath: ProjectSettings\VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\XRSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
-      projectPath: ProjectSettings\XRSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\EditorUserSettings.asset
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
-      projectPath: UserSettings\EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Search.index
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
-      projectPath: UserSettings\Search.index
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Search.settings
-      fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
-      projectPath: UserSettings\Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 28 changed files
+    changedFilesText: 46 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-11-06T20:50:07.408-06:00
+      updatedTimeString: 2024-11-07T23:52:17.983-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-11-06T20:50:57.550-06:00
+      updatedTimeString: 2024-11-07T23:52:11.804-05:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2024-11-06T20:50:07.586-06:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: a39e57a8501b89b6fafe621a750bf7fa36b3f9e6
+      mergeA: 
+      mergeB: 
+      authorName: Neon-Gr33n
+      authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+      commitName: Neon-Gr33n
+      summary: '- Implemented player movement & Camera Follow'
+      description: '- Added in prototype code for our player controller, this includes
+        walking and running
+
+        - Implemented several placeholder rooms, I
+        have the source tilesets that these images use so we could use those to make
+        our own unique level designs'
+      timeString: 2024-11-07T17:07:26.000-06:00
+      commitTimeString: 2024-11-07T17:07:26.000-06:00
+      changes:
+      - path: .vscode\extensions.json
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vscode\extensions.json
+        projectPath: .vscode\extensions.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .vscode\launch.json
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vscode\launch.json
+        projectPath: .vscode\launch.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .vscode\settings.json
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vscode\settings.json
+        projectPath: .vscode\settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Assets\Map004.png.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
+        projectPath: Assets\Assets\Map004.png.meta
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Assets\music.mp3
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3
+        projectPath: Assets\Assets\music.mp3
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Assets\music.mp3.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3.meta
+        projectPath: Assets\Assets\music.mp3.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerController.cs
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\PlayerController.cs
+        projectPath: Assets\Scripts\PlayerController.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\PlayerController.cs.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\PlayerController.cs.meta
+        projectPath: Assets\Scripts\PlayerController.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     - commitID: f4747025e5928d411c74330e6e75fa38062706fb
       mergeA: 
       mergeB: 
@@ -1693,241 +2656,241 @@ MonoBehaviour:
       commitTimeString: 2024-11-06T20:52:18.000-06:00
       changes:
       - path: Assets\Assets.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets.meta
         projectPath: Assets\Assets.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map001.png
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map001.png
         projectPath: Assets\Assets\Map001.png
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map001.png.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map001.png.meta
         projectPath: Assets\Assets\Map001.png.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map003.png
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map003.png
         projectPath: Assets\Assets\Map003.png
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map003.png.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map003.png.meta
         projectPath: Assets\Assets\Map003.png.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map004.png
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png
         projectPath: Assets\Assets\Map004.png
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map004.png.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
         projectPath: Assets\Assets\Map004.png.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map005.png
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map005.png
         projectPath: Assets\Assets\Map005.png
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\Map005.png.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map005.png.meta
         projectPath: Assets\Assets\Map005.png.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\music.mp3
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3
         projectPath: Assets\Assets\music.mp3
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Assets\music.mp3.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3.meta
         projectPath: Assets\Assets\music.mp3.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Renderer2D.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Renderer2D.asset
         projectPath: Assets\Settings\Renderer2D.asset
         originalPath: 
         indexStatus: 3
         workTreeStatus: 0
       - path: Packages\manifest.json
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Packages\manifest.json
         projectPath: Packages\manifest.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Packages\packages-lock.json
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Packages\packages-lock.json
         projectPath: Packages\packages-lock.json
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\AudioManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\AudioManager.asset
         projectPath: ProjectSettings\AudioManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ClusterInputManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ClusterInputManager.asset
         projectPath: ProjectSettings\ClusterInputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\DynamicsManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\DynamicsManager.asset
         projectPath: ProjectSettings\DynamicsManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorBuildSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\EditorBuildSettings.asset
         projectPath: ProjectSettings\EditorBuildSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\EditorSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\EditorSettings.asset
         projectPath: ProjectSettings\EditorSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\GraphicsSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\GraphicsSettings.asset
         projectPath: ProjectSettings\GraphicsSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\InputManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\InputManager.asset
         projectPath: ProjectSettings\InputManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\MemorySettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\MemorySettings.asset
         projectPath: ProjectSettings\MemorySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NavMeshAreas.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\NavMeshAreas.asset
         projectPath: ProjectSettings\NavMeshAreas.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\NetworkManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\NetworkManager.asset
         projectPath: ProjectSettings\NetworkManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PackageManagerSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\PackageManagerSettings.asset
         projectPath: ProjectSettings\PackageManagerSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\Physics2DSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\Physics2DSettings.asset
         projectPath: ProjectSettings\Physics2DSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\PresetManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\PresetManager.asset
         projectPath: ProjectSettings\PresetManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ProjectSettings.asset
         projectPath: ProjectSettings\ProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\ProjectVersion.txt
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ProjectVersion.txt
         projectPath: ProjectSettings\ProjectVersion.txt
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\QualitySettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
         projectPath: ProjectSettings\QualitySettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TagManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\TagManager.asset
         projectPath: ProjectSettings\TagManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\TimeManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\TimeManager.asset
         projectPath: ProjectSettings\TimeManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\URPProjectSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\URPProjectSettings.asset
         projectPath: ProjectSettings\URPProjectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\UnityConnectSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\UnityConnectSettings.asset
         projectPath: ProjectSettings\UnityConnectSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VFXManager.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\VFXManager.asset
         projectPath: ProjectSettings\VFXManager.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\VersionControlSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\VersionControlSettings.asset
         projectPath: ProjectSettings\VersionControlSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: ProjectSettings\XRSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\XRSettings.asset
         projectPath: ProjectSettings\XRSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\EditorUserSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\EditorUserSettings.asset
         projectPath: UserSettings\EditorUserSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.index
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\Search.index
         projectPath: UserSettings\Search.index
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: UserSettings\Search.settings
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\Search.settings
         projectPath: UserSettings\Search.settings
         originalPath: 
         indexStatus: 4
@@ -1945,91 +2908,91 @@ MonoBehaviour:
       commitTimeString: 2024-11-06T20:50:56.000-06:00
       changes:
       - path: Assets\Scenes.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes.meta
         projectPath: Assets\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
         projectPath: Assets\Scenes\SampleScene.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Scenes\SampleScene.unity.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity.meta
         projectPath: Assets\Scenes\SampleScene.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings.meta
         projectPath: Assets\Settings.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
         projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
         projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Renderer2D.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Renderer2D.asset
         projectPath: Assets\Settings\Renderer2D.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Renderer2D.asset.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Renderer2D.asset.meta
         projectPath: Assets\Settings\Renderer2D.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Scenes.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Scenes.meta
         projectPath: Assets\Settings\Scenes.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
         projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
         projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\UniversalRP.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\UniversalRP.asset
         projectPath: Assets\Settings\UniversalRP.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\Settings\UniversalRP.asset.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\UniversalRP.asset.meta
         projectPath: Assets\Settings\UniversalRP.asset.meta
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
         projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
         projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
         originalPath: 
         indexStatus: 4
@@ -2047,33 +3010,134 @@ MonoBehaviour:
       commitTimeString: 2024-11-06T20:50:06.000-06:00
       changes:
       - path: .gitattributes
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitattributes
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.gitattributes
         projectPath: .gitattributes
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: .gitignore
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitignore
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.gitignore
         projectPath: .gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
       - path: Assets\.gitignore
-        fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\.gitignore
+        fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\.gitignore
         projectPath: Assets\.gitignore
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2024-11-07T15:21:04.013-06:00
+      updatedTimeString: 2024-11-07T21:43:11.051-05:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2024-11-07T15:21:03.997-06:00
+      updatedTimeString: 2024-11-07T21:56:39.076-05:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: a39e57a8501b89b6fafe621a750bf7fa36b3f9e6
+        mergeA: 
+        mergeB: 
+        authorName: Neon-Gr33n
+        authorEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitEmail: 41244356+neon-gr33n@users.noreply.github.com
+        commitName: Neon-Gr33n
+        summary: '- Implemented player movement & Camera Follow'
+        description: '- Added in prototype code for our player controller, this includes
+          walking and running
+
+          - Implemented several placeholder rooms,
+          I have the source tilesets that these images use so we could use those
+          to make our own unique level designs'
+        timeString: 2024-11-07T17:07:26.000-06:00
+        commitTimeString: 2024-11-07T17:07:26.000-06:00
+        changes:
+        - path: .vscode\extensions.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vscode\extensions.json
+          projectPath: .vscode\extensions.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .vscode\launch.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vscode\launch.json
+          projectPath: .vscode\launch.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .vscode\settings.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vscode\settings.json
+          projectPath: .vscode\settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Assets\Map004.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
+          projectPath: Assets\Assets\Map004.png.meta
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Assets\music.mp3
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3
+          projectPath: Assets\Assets\music.mp3
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Assets\music.mp3.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3.meta
+          projectPath: Assets\Assets\music.mp3.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerController.cs
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\PlayerController.cs
+          projectPath: Assets\Scripts\PlayerController.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\PlayerController.cs.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\PlayerController.cs.meta
+          projectPath: Assets\Scripts\PlayerController.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       - commitID: f4747025e5928d411c74330e6e75fa38062706fb
         mergeA: 
         mergeB: 
@@ -2087,241 +3151,241 @@ MonoBehaviour:
         commitTimeString: 2024-11-06T20:52:18.000-06:00
         changes:
         - path: Assets\Assets.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets.meta
           projectPath: Assets\Assets.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map001.png
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map001.png
           projectPath: Assets\Assets\Map001.png
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map001.png.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map001.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map001.png.meta
           projectPath: Assets\Assets\Map001.png.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map003.png
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map003.png
           projectPath: Assets\Assets\Map003.png
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map003.png.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map003.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map003.png.meta
           projectPath: Assets\Assets\Map003.png.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map004.png
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png
           projectPath: Assets\Assets\Map004.png
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map004.png.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map004.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
           projectPath: Assets\Assets\Map004.png.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map005.png
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map005.png
           projectPath: Assets\Assets\Map005.png
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\Map005.png.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\Map005.png.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map005.png.meta
           projectPath: Assets\Assets\Map005.png.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\music.mp3
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3
           projectPath: Assets\Assets\music.mp3
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Assets\music.mp3.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Assets\music.mp3.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\music.mp3.meta
           projectPath: Assets\Assets\music.mp3.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Renderer2D.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Renderer2D.asset
           projectPath: Assets\Settings\Renderer2D.asset
           originalPath: 
           indexStatus: 3
           workTreeStatus: 0
         - path: Packages\manifest.json
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\manifest.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Packages\manifest.json
           projectPath: Packages\manifest.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Packages\packages-lock.json
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Packages\packages-lock.json
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Packages\packages-lock.json
           projectPath: Packages\packages-lock.json
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\AudioManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\AudioManager.asset
           projectPath: ProjectSettings\AudioManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ClusterInputManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ClusterInputManager.asset
           projectPath: ProjectSettings\ClusterInputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\DynamicsManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\DynamicsManager.asset
           projectPath: ProjectSettings\DynamicsManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\EditorBuildSettings.asset
           projectPath: ProjectSettings\EditorBuildSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\EditorSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\EditorSettings.asset
           projectPath: ProjectSettings\EditorSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\GraphicsSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\GraphicsSettings.asset
           projectPath: ProjectSettings\GraphicsSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\InputManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\InputManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\InputManager.asset
           projectPath: ProjectSettings\InputManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\MemorySettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\MemorySettings.asset
           projectPath: ProjectSettings\MemorySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NavMeshAreas.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\NavMeshAreas.asset
           projectPath: ProjectSettings\NavMeshAreas.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\NetworkManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\NetworkManager.asset
           projectPath: ProjectSettings\NetworkManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\PackageManagerSettings.asset
           projectPath: ProjectSettings\PackageManagerSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\Physics2DSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\Physics2DSettings.asset
           projectPath: ProjectSettings\Physics2DSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\PresetManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\PresetManager.asset
           projectPath: ProjectSettings\PresetManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ProjectSettings.asset
           projectPath: ProjectSettings\ProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\ProjectVersion.txt
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ProjectVersion.txt
           projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
           projectPath: ProjectSettings\QualitySettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TagManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TagManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\TagManager.asset
           projectPath: ProjectSettings\TagManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\TimeManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\TimeManager.asset
           projectPath: ProjectSettings\TimeManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\URPProjectSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\URPProjectSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\URPProjectSettings.asset
           projectPath: ProjectSettings\URPProjectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\UnityConnectSettings.asset
           projectPath: ProjectSettings\UnityConnectSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VFXManager.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\VFXManager.asset
           projectPath: ProjectSettings\VFXManager.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\VersionControlSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\VersionControlSettings.asset
           projectPath: ProjectSettings\VersionControlSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: ProjectSettings\XRSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\XRSettings.asset
           projectPath: ProjectSettings\XRSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\EditorUserSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\EditorUserSettings.asset
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.index
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.index
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\Search.index
           projectPath: UserSettings\Search.index
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: UserSettings\Search.settings
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\UserSettings\Search.settings
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\UserSettings\Search.settings
           projectPath: UserSettings\Search.settings
           originalPath: 
           indexStatus: 4
@@ -2339,91 +3403,91 @@ MonoBehaviour:
         commitTimeString: 2024-11-06T20:50:56.000-06:00
         changes:
         - path: Assets\Scenes.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes.meta
           projectPath: Assets\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
           projectPath: Assets\Scenes\SampleScene.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity.meta
           projectPath: Assets\Scenes\SampleScene.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings.meta
           projectPath: Assets\Settings.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate
           projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
           projectPath: Assets\Settings\Lit2DSceneTemplate.scenetemplate.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Renderer2D.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Renderer2D.asset
           projectPath: Assets\Settings\Renderer2D.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Renderer2D.asset.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Renderer2D.asset.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Renderer2D.asset.meta
           projectPath: Assets\Settings\Renderer2D.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Scenes.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Scenes.meta
           projectPath: Assets\Settings\Scenes.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity
           projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
           projectPath: Assets\Settings\Scenes\URP2DSceneTemplate.unity.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\UniversalRP.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\UniversalRP.asset
           projectPath: Assets\Settings\UniversalRP.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\Settings\UniversalRP.asset.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\Settings\UniversalRP.asset.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Settings\UniversalRP.asset.meta
           projectPath: Assets\Settings\UniversalRP.asset.meta
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\UniversalRenderPipelineGlobalSettings.asset
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\UniversalRenderPipelineGlobalSettings.asset
           projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\UniversalRenderPipelineGlobalSettings.asset.meta
           projectPath: Assets\UniversalRenderPipelineGlobalSettings.asset.meta
           originalPath: 
           indexStatus: 4
@@ -2441,19 +3505,19 @@ MonoBehaviour:
         commitTimeString: 2024-11-06T20:50:06.000-06:00
         changes:
         - path: .gitattributes
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitattributes
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.gitattributes
           projectPath: .gitattributes
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: .gitignore
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\.gitignore
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.gitignore
           projectPath: .gitignore
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
         - path: Assets\.gitignore
-          fullPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives\Assets\.gitignore
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\.gitignore
           projectPath: Assets\.gitignore
           originalPath: 
           indexStatus: 4
@@ -3038,29 +4102,29 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: C:\Users\BowlO\AppData\Local\GitForUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\BowlO\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
+      gitPath: C:\Users\Shadow\AppData\Local\GitForUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\Shadow\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
       installSettingsHidden: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2024-11-06T20:50:07.408-06:00
+      updatedTimeString: 2024-11-07T21:32:11.037-05:00
       cacheType: 1
-    newRepositoryRemoteUrl: 
+    newRepositoryRemoteUrl: https://github.com/neon-gr33n/Shadows-of-the-Archives.git
     repositoryRemoteName: origin
-    repositoryRemoteUrl: 
+    repositoryRemoteUrl: https://github.com/neon-gr33n/Shadows-of-the-Archives.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: Neon-Gr33n
-      gitEmail: 41244356+neon-gr33n@users.noreply.github.com
-      newGitName: Neon-Gr33n
-      newGitEmail: 41244356+neon-gr33n@users.noreply.github.com
+      gitName: Archer
+      gitEmail: JudahBertou@gmail.com
+      newGitName: Archer
+      newGitEmail: JudahBertou@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2024-11-06T20:50:01.532-06:00
+        updatedTimeString: 2024-11-07T21:57:01.256-05:00
         cacheType: 8
       configSettingsHidden: 0
     repositorySettingsHidden: 0
@@ -3069,10 +4133,10 @@ MonoBehaviour:
     uiSceneSettingsHidden: 0
     uiProjectSettingsHidden: 0
   locksView:
-    currentRemoteHasUpdate: 0
+    currentRemoteHasUpdate: 1
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
+    keychainHasUpdate: 1
     locksControl:
       scroll: {x: 0, y: 0}
       gitLockEntries: []
@@ -3091,18 +4155,308 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 
+        lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2024-11-07T21:32:11.037-05:00
+      cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2024-11-07T21:56:39.234-05:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2024-11-07T21:56:39.022-05:00
+      cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: .vsconfig
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit.meta
+      projectPath: Assets\Assets\horror_kit.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog.meta
+      projectPath: Assets\Assets\horror_kit\fog.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\fogblack.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png
+      projectPath: Assets\Assets\horror_kit\fog\fogblack.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\fogblack.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\fogblack.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\fogwhite.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png
+      projectPath: Assets\Assets\horror_kit\fog\fogwhite.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\fogwhite.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\fogwhite.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze white.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
+        white.png
+      projectPath: Assets\Assets\horror_kit\fog\Haze white.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze white.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
+        white.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\Haze white.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png
+      projectPath: Assets\Assets\horror_kit\fog\Haze.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\Haze.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\Haze.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade white.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade white.png
+      projectPath: Assets\Assets\horror_kit\fog\side shade white.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade white.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade white.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\side shade white.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade.png
+      projectPath: Assets\Assets\horror_kit\fog\side shade.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\side shade.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
+        shade.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\side shade.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog white.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog white.png
+      projectPath: Assets\Assets\horror_kit\fog\watery fog white.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog white.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog white.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\watery fog white.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog.png
+      projectPath: Assets\Assets\horror_kit\fog\watery fog.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\watery fog.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
+        fog.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\watery fog.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy black clouds.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        black clouds.png
+      projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        black clouds.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy white clouds.png
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        white clouds.png
+      projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
+        white clouds.png.meta
+      projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Library.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.meta
+      projectPath: Assets\Assets\Library.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Library.prefab
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab
+      projectPath: Assets\Assets\Library.prefab
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Library.prefab.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab.meta
+      projectPath: Assets\Assets\Library.prefab.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Assets\Map004.png.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
+      projectPath: Assets\Assets\Map004.png.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\ConfigHolder.cs
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs
+      projectPath: Assets\Scripts\ConfigHolder.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scripts\ConfigHolder.cs.meta
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs.meta
+      projectPath: Assets\Scripts\ConfigHolder.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\BurstAotSettings_WebGL.json
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_WebGL.json
+      projectPath: ProjectSettings\BurstAotSettings_WebGL.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\CommonBurstAotSettings.json
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\CommonBurstAotSettings.json
+      projectPath: ProjectSettings\CommonBurstAotSettings.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ShaderGraphSettings.asset
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ShaderGraphSettings.asset
+      projectPath: ProjectSettings\ShaderGraphSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -3118,7 +4472,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/neon-gr33n/Shadows-of-the-Archives.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: master
@@ -3129,13 +4483,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-11-07T14:43:59.474-06:00
+    updatedTimeString: 2024-11-07T22:32:11.739-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-11-07T14:45:37.109-06:00
+    updatedTimeString: 2024-11-07T22:50:10.689-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-11-07T14:45:37.099-06:00
+    updatedTimeString: 2024-11-07T22:50:10.651-05:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3155,10 +4509,10 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0.875
+  appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &13
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3179,9 +4533,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1297
-    width: 2933
-    height: 822
+    y: 634
+    width: 1286
+    height: 365
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3203,7 +4557,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -3211,16 +4565,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 71
-  m_LastProjectPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives
+  m_LastProjectPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 24710000
-    m_LastClickedID: 28964
-    m_ExpandedIDs: 000000002471000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: fc740000
+    m_LastClickedID: 29948
+    m_ExpandedIDs: 000000000e06000062060000220700002a0700001cf1000034f1000048f1000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3236,7 +4590,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -3248,7 +4602,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000024710000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3276,7 +4630,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300004a720000204f0000
+    m_ExpandedInstanceIDs: c62300004a720000204f0000ecdb0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3304,7 +4658,7 @@ MonoBehaviour:
     m_GridSize: 71
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &14
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3324,10 +4678,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2934
+    x: 1287
     y: 73
-    width: 905
-    height: 2046
+    width: 632
+    height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3345,13 +4699,13 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 216
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3373,8 +4727,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 725
-    height: 1203
+    width: 314
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3388,9 +4742,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e0700000
-      m_LastClickedID: 28896
-      m_ExpandedIDs: 1afbffffe0700000
+      m_SelectedIDs: 0cf00000
+      m_LastClickedID: 61452
+      m_ExpandedIDs: 5280fbff3088fbff2217feff9e34fefffc37feffe639feff0cf0000014f00000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3414,7 +4768,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3434,10 +4788,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 726
+    x: 315
     y: 73
-    width: 2206
-    height: 1204
+    width: 970
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3452,8 +4806,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -166, y: -26}
+      snapOffset: {x: -161, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -3737,7 +5091,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 48, y: 48}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -3809,9 +5163,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.9948418, y: 1.4503304, z: 0.013450111}
+    m_Target: {x: -2.9749026, y: -2.7574704, z: -0.023723174}
     speed: 2
-    m_Value: {x: -2.9948418, y: 1.4503304, z: 0.013450111}
+    m_Value: {x: -2.9749026, y: -2.7574704, z: -0.023723174}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3820,7 +5174,7 @@ MonoBehaviour:
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
   m_SceneViewState:
-    m_AlwaysRefresh: 0
+    m_AlwaysRefresh: 1
     showFog: 1
     showSkybox: 1
     showFlares: 1
@@ -3861,9 +5215,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.654987
+    m_Target: 12.372225
     speed: 2
-    m_Value: 8.654987
+    m_Value: 12.372225
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -3881,14 +5235,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.025641004, y: -0.113123894, z: 0.0029179957, w: -0.9932549}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3908,10 +5262,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 726
+    x: 315
     y: 73
-    width: 2206
-    height: 1203
+    width: 970
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -3928,7 +5282,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1280, y: 720}
+  m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -3937,16 +5291,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -640
-    m_HBaseRangeMax: 640
-    m_VBaseRangeMin: -360
-    m_VBaseRangeMax: 360
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3955,7 +5309,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -3964,29 +5318,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 2206
-      height: 1182
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 1103, y: 591}
+      width: 970
+      height: 519
+    m_Scale: {x: 0.48055556, y: 0.48055556}
+    m_Translation: {x: 485, y: 259.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1103
-      y: -591
-      width: 2206
-      height: 1182
+      x: -1009.24854
+      y: -540
+      width: 2018.4971
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2206, y: 1203}
+  m_defaultScale: 0.48055556
+  m_LastWindowPixelSize: {x: 970, y: 540}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
