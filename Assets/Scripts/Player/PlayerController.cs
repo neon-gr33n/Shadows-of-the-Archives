@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private void Awake() {     
         rb = GetComponent<Rigidbody2D>();
         player = ReInput.players.GetPlayer(0);
+
     }
 
     void Update()
