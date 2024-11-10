@@ -2,10 +2,15 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using Rewired;
+using Unity.Collections.LowLevel.Unsafe;
 
 public class Dialogue : MonoBehaviour {
     public TextMeshProUGUI textDisplay;
+    public TextMeshProUGUI nameDisplay;
+    public GameObject namePlate;
+    public GameObject cursor;
     public string[] sentences;
+    public string[] names;
     private int index = 0;
     private Player player;
     [SerializeField] private float typingSpeed = 0.4f;
@@ -13,7 +18,7 @@ public class Dialogue : MonoBehaviour {
     // todo: add typing effect, dialogue system, branching dialogue
     private void Awake() {
         player = ReInput.players.GetPlayer(0);
-        StartCoroutine(Type());
+        StartCoroutine(TextUpdate());
     }
 
     private void Update() {
@@ -22,7 +27,7 @@ public class Dialogue : MonoBehaviour {
         }
     }
 
-    IEnumerator Type()
+    IEnumerator TextUpdate()
     {
         yield return new WaitForSeconds(2f);
 
@@ -31,6 +36,8 @@ public class Dialogue : MonoBehaviour {
             textDisplay.text += c;
             yield return new WaitForSeconds(0.02f);
         }
+
+        nameDisplay.text = names[index];
     }
 
     private void NextSentence()
@@ -39,10 +46,12 @@ public class Dialogue : MonoBehaviour {
         {
             index++;
             textDisplay.text = "";
-            StartCoroutine(Type());
+            nameDisplay.text = "";
+            StartCoroutine(TextUpdate());
         } else {
             textDisplay.text = "";
-
+            nameDisplay.text = "";
+            namePlate.SetActive(false);
         }
     }
 }
