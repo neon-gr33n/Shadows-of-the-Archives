@@ -7,11 +7,12 @@ TagManager:
   - NPC
   - Item
   - Object
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Distraction
   - Water
   - UI
   - 

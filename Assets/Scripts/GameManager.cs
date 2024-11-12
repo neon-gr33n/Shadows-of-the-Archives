@@ -12,12 +12,19 @@ public enum GameState {
 }
 
 public class GameManager : MonoBehaviour {
-    public static GameManager Instnace;
+    public static GameManager Instance;
     [SerializeField] private GameState gameState;
     public FlagDictionary gameFlags;
 
     private void Awake() {
-        Instnace = this;
+         if(Instance == null) // If there is no instance already
+         {
+            DontDestroyOnLoad(gameObject); // Keep the GameObject, this component is attached to, across different scenes
+            Instance = this;
+         } else if(Instance != this) // If there is already an instance and it's not `this` instance
+         {
+            Destroy(gameObject); // Destroy the GameObject, this component is attached to
+         }
         gameFlags.Add("CurrentNight", 0);
         gameFlags.Add("ActionPointsTotal", 10);
         gameFlags.Add("CurrentActionPoints", 10);

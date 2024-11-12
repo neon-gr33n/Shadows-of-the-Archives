@@ -11,8 +11,6 @@ public class InputComponent : MonoBehaviour {
     public bool Interact {get; set;}
     private Player player;
 
-    public event Action OnInteract = delegate { };
-
     private void Awake() {
         player = ReInput.players.GetPlayer(0);
     }
@@ -27,7 +25,6 @@ public class InputComponent : MonoBehaviour {
 
         if (Interact){
             Debug.Log("Interacting!");
-            OnInteract();
         }
 
     }
