@@ -2,42 +2,52 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using Rewired;
-using Unity.Collections.LowLevel.Unsafe;
+using TMPEffects;
+using TMPEffects.Components;
+using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour {
-    public TextMeshProUGUI textDisplay;
-    public TextMeshProUGUI nameDisplay;
-    public GameObject namePlate;
-    public GameObject cursor;
+    public TextMeshProUGUI[] textDisplays;
+    public GameObject portrait;
+    public Image portraitImage;
+    public GameObject nameplate;
+    public Transform dialogueOffsetWithPorait;
+    public Sprite[] portraits;
+
     public string[] sentences;
     public string[] names;
     private int index = 0;
     private Player player;
+    private InputComponent inputs;
+    public bool hasPortrait = false;
+    public bool hasNameplate = false;
     [SerializeField] private float typingSpeed = 0.4f;
     
-    // todo: add typing effect, dialogue system, branching dialogue
+    // todo: add branching dialogue, ability to execute events like camera movement during or after lines of dialogue
+    // allow a delay between aforementioned events and the next line of dialogue, allow choices
     private void Awake() {
         player = ReInput.players.GetPlayer(0);
-        StartCoroutine(TextUpdate());
+        inputs = GameObject.FindGameObjectWithTag("Player").GetComponent<InputComponent>();
+        textDisplays[0].text = sentences[0];
+
+        if (hasPortrait == true){
+            portrait.SetActive(true);
+            textDisplays[0].transform.position = dialogueOffsetWithPorait.transform.position;
+        } else {
+            portrait.SetActive(false);
+        }
+
+        if (hasNameplate == true){
+            nameplate.SetActive(true);
+        } else {
+            nameplate.SetActive(false);
+        }
     }
 
     private void Update() {
-        if (player.GetButtonDown("Skip") && textDisplay.text == sentences[index]) {
+        if (inputs.Skip && textDisplays[0].text == sentences[index]) {
             NextSentence();
         }
-    }
-
-    IEnumerator TextUpdate()
-    {
-        yield return new WaitForSeconds(2f);
-
-        foreach(char c in sentences[index].ToCharArray())
-        {
-            textDisplay.text += c;
-            yield return new WaitForSeconds(0.02f);
-        }
-
-        nameDisplay.text = names[index];
     }
 
     private void NextSentence()
@@ -45,13 +55,16 @@ public class Dialogue : MonoBehaviour {
         if (index < sentences.Length - 1)
         {
             index++;
-            textDisplay.text = "";
-            nameDisplay.text = "";
-            StartCoroutine(TextUpdate());
+            if(hasPortrait == true){
+                portraitImage.sprite = portraits[index];
+            }
+            for(int i = 0; i < textDisplays.Length - 1; i++){
+                textDisplays[i].text = "";
+            }
+
+            textDisplays[0].text = sentences[index].ToString();
         } else {
-            textDisplay.text = "";
-            nameDisplay.text = "";
-            namePlate.SetActive(false);
+           gameObject.SetActive(false);
         }
     }
 }
