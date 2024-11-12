@@ -14,6 +14,7 @@ public class Interactable : MonoBehaviour {
     public virtual void OnInteract()
     {
         Debug.Log("Interacting with " + transform.name);
+       // player.GetComponent<PlayerController>().moveable = false;
     }
 
     public virtual void Update() {

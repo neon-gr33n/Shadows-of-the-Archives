@@ -1,7 +1,9 @@
+using UnityEditor;
 using UnityEngine;
 
 public class InteractComponent : MonoBehaviour {
     public Interactable focus;
+    [SerializeField] private NPC npc;
     private Camera cam;
 
     // Used for initialization
@@ -48,17 +50,29 @@ public class InteractComponent : MonoBehaviour {
         focus = null;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.GetComponent<Interactable>() != null)
+        Debug.Log("Enter trigger 2D");
+        switch(other.gameObject.tag)
         {
-            Interactable interactable = collision.gameObject.GetComponent<Interactable>();
-            SetFocus(interactable);
+            case "NPC":
+               npc = other.gameObject.GetComponent<NPC>();
+               SetFocus(npc);
+               if(focus != null)
+               {
+                 npc.OnInteract();
+               }
+            break;
+            // case "Item":
+            // break;
+            // case "Object":
+            // break;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        Debug.Log("Exited Trigger 2D");
         RemoveFocus(); 
     }
 

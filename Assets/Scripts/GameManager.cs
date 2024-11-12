@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour {
 
     private void Awake() {
         Instnace = this;
+        gameFlags.Add("CurrentNight", 0);
+        gameFlags.Add("ActionPointsTotal", 10);
+        gameFlags.Add("CurrentActionPoints", 10);
     }
 
     public void SetGameState(GameState state)

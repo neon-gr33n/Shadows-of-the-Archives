@@ -6,7 +6,7 @@ using TMPEffects;
 using TMPEffects.Components;
 using UnityEngine.UI;
 
-public class Dialogue : MonoBehaviour {
+public class DialogueEvents : MonoBehaviour {
     public TextMeshProUGUI[] textDisplays;
     public GameObject portrait;
     public Image portraitImage;
@@ -15,13 +15,12 @@ public class Dialogue : MonoBehaviour {
     public Sprite[] portraits;
 
     public string[] sentences;
-    public string[] names;
+    public string characterName;
     private int index = 0;
     private Player player;
     private InputComponent inputs;
     public bool hasPortrait = false;
     public bool hasNameplate = false;
-    [SerializeField] private float typingSpeed = 0.4f;
     
     // todo: add branching dialogue, ability to execute events like camera movement during or after lines of dialogue
     // allow a delay between aforementioned events and the next line of dialogue, allow choices
@@ -63,8 +62,20 @@ public class Dialogue : MonoBehaviour {
             }
 
             textDisplays[0].text = sentences[index].ToString();
+            textDisplays[1].text = characterName;
         } else {
-           gameObject.SetActive(false);
+            // Clears the current text before we disable the object.
+            for(int i = 0; i < textDisplays.Length - 1; i++){
+                textDisplays[i].text = "";
+            }
+
+            for(int j = 0; j < sentences.Length - 1; j++)
+            {
+                sentences[j] = "";
+            }
+
+            gameObject.SetActive(false);
         }
     }
+
 }
