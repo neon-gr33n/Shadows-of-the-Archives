@@ -4,7 +4,6 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-!Assets/Assets/Library
 
 # Never ignore DLLs in the FMOD subfolder.
 !/[Aa]ssets/Plugins/FMOD/**/lib/*
