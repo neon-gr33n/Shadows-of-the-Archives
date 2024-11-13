@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Shadows-of-the-Archives.sln"
+    "dotnet.defaultSolution": "Shadows of the Archives.sln"
 }

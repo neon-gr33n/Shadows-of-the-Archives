@@ -18,12 +18,14 @@ public class DialogueEvents : MonoBehaviour {
     private int currentNodeIndex = 0;
     private Player player;
     private InputComponent inputs;
+    private PlayerController playerController;
 
     public bool hasPortrait = false;
 
     private void Awake() {
         player = ReInput.players.GetPlayer(0);
         inputs = GameObject.FindGameObjectWithTag("Player").GetComponent<InputComponent>();
+        playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     private void Update() {
@@ -100,6 +102,8 @@ public class DialogueEvents : MonoBehaviour {
         for (int i = 0; i < textDisplays.Length; i++) {
             textDisplays[i].GetComponent<TextMeshProUGUI>().text = "";
         }
+
+        playerController.UnFreezePlayer();
 
         gameObject.SetActive(false);
     }
