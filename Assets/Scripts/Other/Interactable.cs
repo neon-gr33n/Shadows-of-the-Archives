@@ -13,15 +13,17 @@ public class Interactable : MonoBehaviour {
     /// </summary>
     public virtual void OnInteract()
     {
-        Debug.Log("Interacting with " + transform.name);
+        Debug.Log("Touching with " + transform.name);
        // player.GetComponent<PlayerController>().moveable = false;
     }
 
-    public virtual void Update() {
+    public virtual void Update() 
+    {
         if (!isFocus && !hasInteracted)
         {
             float distance = Vector2.Distance(player.position, transform.position);
-            if (distance <= radius){
+            if (distance <= radius)
+            {
                 hasInteracted = true;
             }
         }

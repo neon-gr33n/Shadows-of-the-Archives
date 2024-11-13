@@ -6,7 +6,6 @@ public class InputComponent : MonoBehaviour {
     public float Horizontal {get; set;}
     public float Vertical {get; set;}
     public bool Run {get; set;}
-    public bool UnRun {get; set;}
     public bool Skip {get; set;}
     public bool Interact {get; set;}
     private Player player;
@@ -19,13 +18,12 @@ public class InputComponent : MonoBehaviour {
         Horizontal = player.GetAxisRaw("Move Horizontal");
         Vertical = player.GetAxisRaw("Move Vertical");
         Run = player.GetButton("Run");
-        UnRun = player.GetButtonUp("Run");
         Interact = player.GetButtonDown("Perform Action");
         Skip = player.GetButtonDown("Skip");
 
-        if (Interact){
+        /*if (Interact){
             Debug.Log("Interacting!");
-        }
+        }*/
 
     }
 

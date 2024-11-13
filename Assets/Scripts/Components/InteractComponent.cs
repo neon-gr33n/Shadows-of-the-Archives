@@ -60,7 +60,8 @@ public class InteractComponent : MonoBehaviour {
                SetFocus(npc);
                if(focus != null)
                {
-                 npc.OnInteract();
+                    Debug.Log("Called intereact on NPC");
+                    npc.OnInteract();
                }
             break;
             // case "Item":

@@ -1,22 +1,29 @@
 using System;
 using UnityEngine;
+using TMPro;
 
 public class NPC : Interactable {
     [SerializeField] private DialogueEvents dialogueEvents;
-    [SerializeField] private GameObject textbox;
+    [SerializeField] private GameObject dialogSystem;
    // [SerializeField] private string[] text;  // Old format (just text lines)
-    [SerializeField] private string charaName;
     [SerializeField] private bool usePortrait = false;
-
+    private PlayerController Player;
     // Add this to allow for dialogue nodes in the Inspector
     [SerializeField] private DialogueNode[] dialogueNodes;  // Array of DialogueNodes
+
+    private void Start()
+    {
+        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+    }
 
     public override void OnInteract()
     {
         base.OnInteract();
-        
+
+        Player.FreezePlayer();
+
         // Show the textbox and set up dialogue
-        textbox.SetActive(true);
+        dialogSystem.SetActive(true);
 
         // Set portrait usage (if we have a portrait or not)
         dialogueEvents.hasPortrait = usePortrait;
@@ -27,8 +34,6 @@ public class NPC : Interactable {
 
     private void AssignDialogue()
     {
-        // Assign the character name
-        dialogueEvents.textDisplays[1].text = charaName;
 
         // Now we assign the DialogueNodes instead of just a string array
         dialogueEvents.dialogueNodes = dialogueNodes;

@@ -16,10 +16,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 43
-    width: 3840
-    height: 2117
+    width: 1920
+    height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 3840
-    height: 2117
+    width: 1920
+    height: 997
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 3840
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 2097
-    width: 3840
+    y: 977
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -114,12 +114,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 3840
-    height: 2067
+    width: 1920
+    height: 947
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 284
+  controlID: 127
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -140,12 +140,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2569
-    height: 2067
+    width: 1284
+    height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1471
+  controlID: 52
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -166,12 +166,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2569
-    height: 1224
+    width: 1284
+    height: 561
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 225
+  controlID: 53
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -190,13 +190,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 630
-    height: 1224
+    width: 312
+    height: 561
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -214,17 +214,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 630
+    x: 312
     y: 0
-    width: 1939
-    height: 1224
+    width: 972
+    height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 15}
   - {fileID: 16}
+  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &10
@@ -237,23 +237,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1224
-    width: 2569
-    height: 843
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+    y: 561
+    width: 1284
+    height: 386
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 19}
+  - {fileID: 14}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,20 +269,126 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2569
+    x: 1284
     y: 0
-    width: 1271
-    height: 2067
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+    width: 636
+    height: 947
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
   - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 22}
+  - {fileID: 13}
+  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 4
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1356588861, guid: e37f52cd3eda26749a57fa3f7e72be70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 400}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Rewired Editor
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1284
+    y: 73
+    width: 635
+    height: 926
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  owner:
+    _inputManager: {fileID: 0}
+    _inputManagerInstanceId: 33324
+    newPrefabSystemOrigPrefab: {fileID: 0}
+  editorIsPlaying: 0
+  tempObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 310, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Project Settings
+    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1285
+    y: 73
+    width: 634
+    height: 926
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_PosLeft: {x: 0, y: 0}
+  m_PosRight: {x: 0, y: 0}
+  m_Scope: 1
+  m_SplitterFlex: 0.2
+  m_SearchText: 
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: eb925b96
+    m_LastClickedID: -1772383509
+    m_ExpandedIDs: 53336be200000000c53aba5a
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,10 +408,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 8
-    y: 1300
-    width: 2557
-    height: 818
+    x: 0
+    y: 634
+    width: 1283
+    height: 365
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -316,7 +422,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &13
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -338,8 +444,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 629
-    height: 1203
+    width: 311
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -353,9 +459,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 04f2feff0005ffff48a3000084a30000
+      m_SelectedIDs: ca810000
+      m_LastClickedID: 33226
+      m_ExpandedIDs: 9cf8feff94f1ffffde800000e2800000ee800000f48000001681000026810000308100004e810000b6810000ca810000e081000008820000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -379,7 +485,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &14
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -399,10 +505,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 630
+    x: 312
     y: 73
-    width: 1937
-    height: 1203
+    width: 970
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -455,29 +561,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1937
-      height: 1182
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 968.5, y: 591}
+      width: 970
+      height: 519
+    m_Scale: {x: 0.48055556, y: 0.48055556}
+    m_Translation: {x: 485, y: 259.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -968.5
-      y: -591
-      width: 1937
-      height: 1182
+      x: -1009.24854
+      y: -540
+      width: 2018.4971
+      height: 1080
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1937, y: 1203}
+  m_defaultScale: 0.48055556
+  m_LastWindowPixelSize: {x: 970, y: 540}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &15
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -497,10 +603,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 630
-    y: 73
-    width: 1937
-    height: 1206
+    x: 301
+    y: 81
+    width: 970
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -513,12 +619,12 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_ShowAlpha: 0
   m_MipLevel: 0
-  m_Zoom: -1
+  m_Zoom: 1.7683593
   m_ScrollPosition: {x: 0, y: 0}
   m_SelectedObject: {fileID: 0}
   m_SelectedSpriteRectGUID: 00000000000000000000000000000000
   m_LastUsedModuleTypeName: UnityEditor.U2D.Sprites.SpriteFrameModule
---- !u!114 &16
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -538,10 +644,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 635
-    y: 81
-    width: 1929
-    height: 1198
+    x: 312
+    y: 73
+    width: 970
+    height: 540
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -557,7 +663,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
       snapOffset: {x: -166, y: -26}
-      snapOffsetDelta: {x: -5, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -908,14 +1014,14 @@ MonoBehaviour:
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 1
+  m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.68100977, y: 1.6616884, z: -4.4374285}
+    m_Target: {x: -1.5834537, y: 3.9550695, z: -4.2152195}
     speed: 2
-    m_Value: {x: 0.68100977, y: 1.6616884, z: -4.4374285}
+    m_Value: {x: -1.5834537, y: 3.9550695, z: -4.2152195}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -924,11 +1030,11 @@ MonoBehaviour:
   m_ValidateTrueMetals: 0
   m_DoValidateTrueMetals: 0
   m_SceneViewState:
-    m_AlwaysRefresh: 0
+    m_AlwaysRefresh: 1
     showFog: 1
     showSkybox: 1
     showFlares: 1
-    showImageEffects: 1
+    showImageEffects: 0
     showParticleSystems: 1
     showVisualEffectGraphs: 1
     m_FxEnabled: 1
@@ -943,17 +1049,17 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -961,17 +1067,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.043364573, y: -0.1398077, z: 0.0061288187, w: -0.9892117}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: -0.043364484, y: -0.13980742, z: 0.006128806, w: -0.98920965}
   m_Size:
-    m_Target: 3.5815291
+    m_Target: 6.9924684
     speed: 2
-    m_Value: 3.5815291
+    m_Value: 6.9924684
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1.0005
     m_SpeedNormalized: 0.5
@@ -992,7 +1098,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1013,9 +1119,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 1297
-    width: 2568
-    height: 822
+    y: 634
+    width: 1283
+    height: 365
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1047,14 +1153,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\BowlO\Downloads\Omaris' Files\Shadows of the Archives
+  m_LastProjectPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e8a10000
-    m_LastClickedID: 41448
-    m_ExpandedIDs: 00000000e8a10000f6a100003ea2000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 98820000
+    m_LastClickedID: 33432
+    m_ExpandedIDs: 000000009482000096820000988200009a8200009c8200009e820000a08200004e840000d486000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1082,7 +1188,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e8a1000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000009482000096820000988200009a8200009c8200009e820000a0820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1107,8 +1213,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: ba810000
+    m_LastClickedInstanceID: 33210
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300004a720000204f0000ecdb0000ea0600002a7800001a7a000000000000
     m_RenameOverlay:
@@ -1138,7 +1244,7 @@ MonoBehaviour:
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &18
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1158,10 +1264,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2569
+    x: 1284
     y: 73
-    width: 1270
-    height: 2046
+    width: 635
+    height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1175,7 +1281,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 541
+    m_CachedPref: -541
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -1185,7 +1291,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &19
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1219,7 +1325,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &20
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1239,9 +1345,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1287
+    x: 1285
     y: 73
-    width: 632
+    width: 634
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1256,7 +1362,7 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 1
+  currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
@@ -1410,31 +1516,14 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - 1f95b79a73bc9e344a11ba0a4e056aff
-        - 97403e2456c36ad4ba500b586cec8058
-        - 180f562ba2748844081880c32af9b44f
-        - 0348d1b423fe65445b233809494fcb64
-        - 6bce0685105fbe845a4b256b5744ec7e
-        - 5cfd4cf55dd63eb4cbb555e3278420f7
-        - 5c8c2c0b70456124d8e993d724dec968
-        - 2ae9d54b15e52f24e994c9eb8079c240
-        - b87b5740cda6f184090663917d64f7b9
-        - 511762f3e50594e4dbf487cdf0ed5ffe
-        - 779680be8f577904f8e6a7bc03fc94c2
-        - 475a261ec181d1b4bab5aec7e3e93348
-        - 0ae6d2a9c7e13c54d8f820064a06082c
-        - 87ab5abea7fea194f9a1d6542ecb8b82
-        - 99a163b3e27f31f4f985c55489dcf12e
-        - 2475f05cd43a4d24da39c0c29d867eea
-        - 10ed975700df294448f78c42d9983c71
-        - 5d6524f4d72f4134bbb6d24583a0fd22
-        - 568bc1d3469dcd649b59f2da5fdd6711
-        - 60235c3c9973d22418b5617005c8bf8e
-        - 61c1e2ab38b034a4dbb42b2b0afa5855
-        - 8c9cfa26abfee488c85f1582747f6a02
-        - 9ef445079bfd2df45a2e5d023e662358
-        - f8da6302ddbd04242ab3772b40e58118
-        - 00000000000000009000000000000000
+        - c54f3a92b98004d4fa2c556645321909
+        - 06ae579381df01a4a87bb149dec89954
+        - 8b617f082dd1f0645bde3b4ff3cbc25a
+        - 5dd2bfa8b9eb6874b9e50b79490891a7
+        - 98f2ca7007fe2074d953e949a6fdf971
+        - 4f94b6752a0d5ad489274786cbfbc6e5
+        - ca0415f774e208a43b8a913b2ddf0bbe
+        - 04e20ff877bea8747ae257229c720dcc
         values:
         - path: Assets
           label: Assets
@@ -1454,8 +1543,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets
-          label: Assets
+        - path: Assets\Plugins
+          label: Plugins
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1472,8 +1561,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets\horror_kit
-          label: horror_kit
+        - path: Assets\Plugins\FMOD
+          label: FMOD
           level: 2
           isFolder: 1
           isContainer: 0
@@ -1490,8 +1579,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets\horror_kit\48px+MVMZ
-          label: 48px+MVMZ
+        - path: Assets\Plugins\FMOD\platforms
+          label: platforms
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1508,99 +1597,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-          label: horror-A1.png
+        - path: Assets\Plugins\FMOD\platforms\mac
+          label: mac
           level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-            projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-          label: horror-A2.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-            projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-          label: horror-B.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-            projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-          label: non-rm-a1-square.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-            projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-          label: non-rm-a2-square.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-            projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog
-          label: fog
-          level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1616,214 +1615,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets\horror_kit\fog\fogblack.png
-          label: fogblack.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\fogblack.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png
-            projectPath: Assets\Assets\horror_kit\fog\fogblack.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\fogwhite.png
-          label: fogwhite.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\fogwhite.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png
-            projectPath: Assets\Assets\horror_kit\fog\fogwhite.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\Haze white.png
-          label: Haze white.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\Haze white.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
-              white.png
-            projectPath: Assets\Assets\horror_kit\fog\Haze white.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\Haze.png
-          label: Haze.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\Haze.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png
-            projectPath: Assets\Assets\horror_kit\fog\Haze.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\side shade white.png
-          label: side shade white.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\side shade white.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-              shade white.png
-            projectPath: Assets\Assets\horror_kit\fog\side shade white.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\side shade.png
-          label: side shade.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\side shade.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-              shade.png
-            projectPath: Assets\Assets\horror_kit\fog\side shade.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\watery fog white.png
-          label: watery fog white.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\watery fog white.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-              fog white.png
-            projectPath: Assets\Assets\horror_kit\fog\watery fog white.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\watery fog.png
-          label: watery fog.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\watery fog.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-              fog.png
-            projectPath: Assets\Assets\horror_kit\fog\watery fog.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\wispy black clouds.png
-          label: wispy black clouds.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\wispy black clouds.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-              black clouds.png
-            projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\horror_kit\fog\wispy white clouds.png
-          label: wispy white clouds.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\horror_kit\fog\wispy white clouds.png
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-              white clouds.png
-            projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Assets\Library.prefab
-          label: Library.prefab
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Assets\Library.prefab
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab
-            projectPath: Assets\Assets\Library.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
+        - path: Assets\Plugins\FMOD\platforms\mac\lib
+          label: lib
+          level: 5
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1839,27 +1633,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          label: SampleScene.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\SampleScene.unity
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
-            projectPath: Assets\Scenes\SampleScene.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle
+          label: fmodstudio.bundle
+          level: 6
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1875,28 +1651,10 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts\ConfigHolder.cs
-          label: ConfigHolder.cs
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\ConfigHolder.cs
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs
-            projectPath: Assets\Scripts\ConfigHolder.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
-          isFolder: 0
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle
+          label: fmodstudioL.bundle
+          level: 6
+          isFolder: 1
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
@@ -1905,22 +1663,44 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\QualitySettings.asset
-            fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
-            projectPath: ProjectSettings\QualitySettings.asset
+            path: 
+            fullPath: 
+            projectPath: 
             originalPath: 
             indexStatus: 0
-            workTreeStatus: 3
+            workTreeStatus: 0
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle
+          label: resonanceaudio.bundle
+          level: 6
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       folders:
         keys:
         - Assets
-        - Assets\Assets
-        - Assets\Assets\horror_kit
-        - Assets\Assets\horror_kit\48px+MVMZ
-        - Assets\Assets\horror_kit\fog
-        - Assets\Scenes
-        - Assets\Scripts
-        - ProjectSettings
+        - Assets\Plugins
+        - Assets\Plugins\FMOD
+        - Assets\Plugins\FMOD\platforms
+        - Assets\Plugins\FMOD\platforms\mac
+        - Assets\Plugins\FMOD\platforms\mac\lib
+        - Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle
+        - Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents
+        - Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle
+        - Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents
+        - Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle
+        - Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents
         values:
         - path: Assets
           label: Assets
@@ -1940,8 +1720,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets
-          label: Assets
+        - path: Assets\Plugins
+          label: Plugins
           level: 1
           isFolder: 1
           isContainer: 0
@@ -1958,8 +1738,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets\horror_kit
-          label: horror_kit
+        - path: Assets\Plugins\FMOD
+          label: FMOD
           level: 2
           isFolder: 1
           isContainer: 0
@@ -1976,8 +1756,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets\horror_kit\48px+MVMZ
-          label: 48px+MVMZ
+        - path: Assets\Plugins\FMOD\platforms
+          label: platforms
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1994,9 +1774,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Assets\horror_kit\fog
-          label: fog
-          level: 3
+        - path: Assets\Plugins\FMOD\platforms\mac
+          label: mac
+          level: 4
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -2012,9 +1792,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
+        - path: Assets\Plugins\FMOD\platforms\mac\lib
+          label: lib
+          level: 5
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -2030,9 +1810,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle
+          label: fmodstudio.bundle
+          level: 6
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -2048,9 +1828,81 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents
+          label: Contents
+          level: 7
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle
+          label: fmodstudioL.bundle
+          level: 6
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents
+          label: Contents
+          level: 7
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle
+          label: resonanceaudio.bundle
+          level: 6
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents
+          label: Contents
+          level: 7
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -2094,24 +1946,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: .vsconfig
-        label: .vsconfig
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vsconfig
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vsconfig
-          projectPath: .vsconfig
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Assets
         label: Assets
         level: 0
@@ -2130,8 +1964,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Assets
-        label: Assets
+      - path: Assets\Plugins
+        label: Plugins
         level: 1
         isFolder: 1
         isContainer: 0
@@ -2148,26 +1982,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Assets\horror_kit.meta
-        label: horror_kit.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit.meta
-          projectPath: Assets\Assets\horror_kit.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit
-        label: horror_kit
+      - path: Assets\Plugins\FMOD
+        label: FMOD
         level: 2
         isFolder: 1
         isContainer: 0
@@ -2184,26 +2000,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Assets\horror_kit\48px+MVMZ.meta
-        label: 48px+MVMZ.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ.meta
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ
-        label: 48px+MVMZ
+      - path: Assets\Plugins\FMOD\platforms
+        label: platforms
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2220,207 +2018,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-        label: horror-A1.png
+      - path: Assets\Plugins\FMOD\platforms\mac
+        label: mac
         level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
-        label: horror-A1.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-        label: horror-A2.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
-        label: horror-A2.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-        label: horror-B.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
-        label: horror-B.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-        label: non-rm-a1-square.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
-        label: non-rm-a1-square.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-        label: non-rm-a2-square.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
-        label: non-rm-a2-square.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
-          projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog.meta
-        label: fog.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog.meta
-          projectPath: Assets\Assets\horror_kit\fog.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog
-        label: fog
-        level: 3
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -2436,27 +2036,63 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Assets\horror_kit\fog\fogblack.png
-        label: fogblack.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\fogblack.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png
-          projectPath: Assets\Assets\horror_kit\fog\fogblack.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\fogblack.png.meta
-        label: fogblack.png.meta
+      - path: Assets\Plugins\FMOD\platforms\mac\lib
+        label: lib
         level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle
+        label: fmodstudio.bundle
+        level: 6
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents
+        label: Contents
+        level: 7
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents\Info.plist
+        label: Info.plist
+        level: 8
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2466,425 +2102,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\fogblack.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\fogblack.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\fogwhite.png
-        label: fogwhite.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\fogwhite.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png
-          projectPath: Assets\Assets\horror_kit\fog\fogwhite.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\fogwhite.png.meta
-        label: fogwhite.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\fogwhite.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\fogwhite.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\Haze white.png
-        label: Haze white.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\Haze white.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
-            white.png
-          projectPath: Assets\Assets\horror_kit\fog\Haze white.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\Haze white.png.meta
-        label: Haze white.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\Haze white.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
-            white.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\Haze white.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\Haze.png
-        label: Haze.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\Haze.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png
-          projectPath: Assets\Assets\horror_kit\fog\Haze.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\Haze.png.meta
-        label: Haze.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\Haze.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\Haze.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\side shade white.png
-        label: side shade white.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\side shade white.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-            shade white.png
-          projectPath: Assets\Assets\horror_kit\fog\side shade white.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\side shade white.png.meta
-        label: side shade white.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\side shade white.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-            shade white.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\side shade white.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\side shade.png
-        label: side shade.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\side shade.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-            shade.png
-          projectPath: Assets\Assets\horror_kit\fog\side shade.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\side shade.png.meta
-        label: side shade.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\side shade.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-            shade.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\side shade.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\watery fog white.png
-        label: watery fog white.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\watery fog white.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-            fog white.png
-          projectPath: Assets\Assets\horror_kit\fog\watery fog white.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\watery fog white.png.meta
-        label: watery fog white.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\watery fog white.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-            fog white.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\watery fog white.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\watery fog.png
-        label: watery fog.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\watery fog.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-            fog.png
-          projectPath: Assets\Assets\horror_kit\fog\watery fog.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\watery fog.png.meta
-        label: watery fog.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\watery fog.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-            fog.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\watery fog.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\wispy black clouds.png
-        label: wispy black clouds.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\wispy black clouds.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-            black clouds.png
-          projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
-        label: wispy black clouds.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-            black clouds.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\wispy white clouds.png
-        label: wispy white clouds.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\wispy white clouds.png
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-            white clouds.png
-          projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
-        label: wispy white clouds.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-            white clouds.png.meta
-          projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\Library.meta
-        label: Library.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\Library.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.meta
-          projectPath: Assets\Assets\Library.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\Library.prefab
-        label: Library.prefab
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\Library.prefab
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab
-          projectPath: Assets\Assets\Library.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\Library.prefab.meta
-        label: Library.prefab.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\Library.prefab.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab.meta
-          projectPath: Assets\Assets\Library.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Assets\Map004.png.meta
-        label: Map004.png.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Assets\Map004.png.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
-          projectPath: Assets\Assets\Map004.png.meta
+          path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents\Info.plist
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents\Info.plist
+          projectPath: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents\Info.plist
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle
+        label: fmodstudioL.bundle
+        level: 6
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -2900,9 +2126,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 2
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents
+        label: Contents
+        level: 7
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents\Info.plist
+        label: Info.plist
+        level: 8
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -2912,15 +2156,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
+          path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents\Info.plist
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents\Info.plist
+          projectPath: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents\Info.plist
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle
+        label: resonanceaudio.bundle
+        level: 6
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -2936,45 +2180,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scripts\ConfigHolder.cs
-        label: ConfigHolder.cs
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\ConfigHolder.cs
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs
-          projectPath: Assets\Scripts\ConfigHolder.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\ConfigHolder.cs.meta
-        label: ConfigHolder.cs.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\ConfigHolder.cs.meta
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs.meta
-          projectPath: Assets\Scripts\ConfigHolder.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents
+        label: Contents
+        level: 7
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
@@ -2990,9 +2198,9 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
-        label: BurstAotSettings_StandaloneWindows.json
-        level: 1
+      - path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents\Info.plist
+        label: Info.plist
+        level: 8
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -3002,84 +2210,12 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_StandaloneWindows.json
-          projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\BurstAotSettings_WebGL.json
-        label: BurstAotSettings_WebGL.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\BurstAotSettings_WebGL.json
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_WebGL.json
-          projectPath: ProjectSettings\BurstAotSettings_WebGL.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\CommonBurstAotSettings.json
-        label: CommonBurstAotSettings.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\CommonBurstAotSettings.json
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\CommonBurstAotSettings.json
-          projectPath: ProjectSettings\CommonBurstAotSettings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
-          projectPath: ProjectSettings\QualitySettings.asset
+          path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents\Info.plist
+          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents\Info.plist
+          projectPath: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents\Info.plist
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: ProjectSettings\ShaderGraphSettings.asset
-        label: ShaderGraphSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ShaderGraphSettings.asset
-          fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ShaderGraphSettings.asset
-          projectPath: ProjectSettings\ShaderGraphSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       selectedNode:
         path: 
         label: 
@@ -3100,305 +2236,33 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: .vsconfig
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\.vsconfig
-      projectPath: .vsconfig
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit.meta
-      projectPath: Assets\Assets\horror_kit.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ.meta
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A1.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-A2.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\horror-B.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a1-square.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
-      projectPath: Assets\Assets\horror_kit\48px+MVMZ\non-rm-a2-square.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog.meta
-      projectPath: Assets\Assets\horror_kit\fog.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\fogblack.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png
-      projectPath: Assets\Assets\horror_kit\fog\fogblack.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\fogblack.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogblack.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\fogblack.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\fogwhite.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png
-      projectPath: Assets\Assets\horror_kit\fog\fogwhite.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\fogwhite.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\fogwhite.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\fogwhite.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\Haze white.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
-        white.png
-      projectPath: Assets\Assets\horror_kit\fog\Haze white.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\Haze white.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze
-        white.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\Haze white.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\Haze.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png
-      projectPath: Assets\Assets\horror_kit\fog\Haze.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\Haze.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\Haze.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\Haze.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\side shade white.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-        shade white.png
-      projectPath: Assets\Assets\horror_kit\fog\side shade white.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\side shade white.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-        shade white.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\side shade white.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\side shade.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-        shade.png
-      projectPath: Assets\Assets\horror_kit\fog\side shade.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\side shade.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\side
-        shade.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\side shade.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\watery fog white.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-        fog white.png
-      projectPath: Assets\Assets\horror_kit\fog\watery fog white.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\watery fog white.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-        fog white.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\watery fog white.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\watery fog.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-        fog.png
-      projectPath: Assets\Assets\horror_kit\fog\watery fog.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\watery fog.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\watery
-        fog.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\watery fog.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\wispy black clouds.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-        black clouds.png
-      projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-        black clouds.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\wispy black clouds.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\wispy white clouds.png
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-        white clouds.png
-      projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\horror_kit\fog\wispy
-        white clouds.png.meta
-      projectPath: Assets\Assets\horror_kit\fog\wispy white clouds.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\Library.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.meta
-      projectPath: Assets\Assets\Library.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\Library.prefab
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab
-      projectPath: Assets\Assets\Library.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\Library.prefab.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Library.prefab.meta
-      projectPath: Assets\Assets\Library.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Assets\Map004.png.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Assets\Map004.png.meta
-      projectPath: Assets\Assets\Map004.png.meta
+    - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents\Info.plist
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents\Info.plist
+      projectPath: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudio.bundle\Contents\Info.plist
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
+    - path: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents\Info.plist
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents\Info.plist
+      projectPath: Assets\Plugins\FMOD\platforms\mac\lib\fmodstudioL.bundle\Contents\Info.plist
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets\Scripts\ConfigHolder.cs
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs
-      projectPath: Assets\Scripts\ConfigHolder.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\ConfigHolder.cs.meta
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Scripts\ConfigHolder.cs.meta
-      projectPath: Assets\Scripts\ConfigHolder.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\BurstAotSettings_StandaloneWindows.json
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_StandaloneWindows.json
-      projectPath: ProjectSettings\BurstAotSettings_StandaloneWindows.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\BurstAotSettings_WebGL.json
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\BurstAotSettings_WebGL.json
-      projectPath: ProjectSettings\BurstAotSettings_WebGL.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\CommonBurstAotSettings.json
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\CommonBurstAotSettings.json
-      projectPath: ProjectSettings\CommonBurstAotSettings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\QualitySettings.asset
-      projectPath: ProjectSettings\QualitySettings.asset
+    - path: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents\Info.plist
+      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents\Info.plist
+      projectPath: Assets\Plugins\FMOD\platforms\mac\lib\resonanceaudio.bundle\Contents\Info.plist
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: ProjectSettings\ShaderGraphSettings.asset
-      fullPath: C:\Users\Shadow\Documents\Unity\Shadows-of-the-Archives\ProjectSettings\ShaderGraphSettings.asset
-      projectPath: ProjectSettings\ShaderGraphSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 46 changed files
+    changedFilesText: 3 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2024-11-12T17:09:01.235-06:00
+      updatedTimeString: 2024-11-13T00:53:15.927-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2024-11-12T17:28:20.949-06:00
+      updatedTimeString: 2024-11-13T01:20:42.471-05:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-11-13T01:20:29.385-05:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -5348,10 +4212,10 @@ MonoBehaviour:
     updatedTimeString: 2024-11-07T22:32:11.739-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-11-07T22:50:10.689-05:00
+    updatedTimeString: 2024-11-12T22:53:13.851-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-11-07T22:50:10.651-05:00
+    updatedTimeString: 2024-11-12T22:53:13.801-05:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull

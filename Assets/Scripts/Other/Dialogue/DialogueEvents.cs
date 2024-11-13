@@ -4,11 +4,13 @@ using UnityEngine.UI;
 using Rewired;
 using TMPro;
 using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
 
 public class DialogueEvents : MonoBehaviour {
-    public TextMeshProUGUI[] textDisplays;
+    public GameObject[] textDisplays;
+    public GameObject[] Choices;
     public GameObject portrait;
-    public Image portraitImage;
+    public UnityEngine.UI.Image portraitImage;
     public Transform dialogueOffsetWithPortrait;
     public Sprite[] portraits;
 
@@ -22,11 +24,6 @@ public class DialogueEvents : MonoBehaviour {
     private void Awake() {
         player = ReInput.players.GetPlayer(0);
         inputs = GameObject.FindGameObjectWithTag("Player").GetComponent<InputComponent>();
-
-        // Start by showing the first node
-        // todo: Fix an issue with this function where nodes assigned from an NPC
-        // do not display in the dialogue box
-        ShowDialogueNode(dialogueNodes[currentNodeIndex]);
     }
 
     private void Update() {
@@ -37,21 +34,29 @@ public class DialogueEvents : MonoBehaviour {
 
     public void ShowDialogueNode(DialogueNode node) {
         // Display character name
-        textDisplays[1].text = node.characterName;
+
+        Debug.Log(node.characterName);
+        Debug.Log(node.text);
 
         // Display text
-        textDisplays[0].text = node.text;
+        textDisplays[1].GetComponent<TextMeshProUGUI>().text = node.characterName;
+        textDisplays[0].GetComponent<TextMeshProUGUI>().text = node.text;
 
         // Trigger actions for this node
         TriggerActions(node.actions);
 
         // If the node has choices, show them
-        if (node.choices.Count > 0) {
+        if (node.choices.Count > 0)
+        {
+            Choices[0].transform.parent.gameObject.SetActive(true);
             DisplayChoices(node.choices);
-        } else {
+        }
+        else
+        {
             // Hide choices if there are none
-            foreach (var choice in textDisplays) {
-                choice.text = "";
+            foreach (var choice in Choices)
+            {
+                choice.GetComponent<TextMeshProUGUI>().text = "";
             }
         }
 
@@ -70,9 +75,14 @@ public class DialogueEvents : MonoBehaviour {
 
     private void DisplayChoices(List<Choice> choices) {
         // Assuming you have buttons to display choices, here we just print them for now
-        for (int i = 0; i < choices.Count; i++) {
-            // For simplicity, just update the first 3 text displays with choices
-            textDisplays[i].text = choices[i].text;
+        // for (int i = 0; i < choices.Count; i++) {
+        //     // For simplicity, just update the first 3 text displays with choices
+        //     Choices[i]
+        // }
+        for (int i=0; i < choices.Count; i++)
+        {
+            Choices[i].SetActive(true);
+            Choices[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = choices[i].text;
         }
     }
 
@@ -88,7 +98,7 @@ public class DialogueEvents : MonoBehaviour {
 
     private void EndDialogue() {
         for (int i = 0; i < textDisplays.Length; i++) {
-            textDisplays[i].text = "";
+            textDisplays[i].GetComponent<TextMeshProUGUI>().text = "";
         }
 
         gameObject.SetActive(false);
@@ -126,5 +136,18 @@ public class DialogueEvents : MonoBehaviour {
         int value = int.Parse(parameters["value"]);
         
         GameManager.Instance.SetGameFlag(key, value);
+    }
+
+    public void Test1()
+    {
+        Debug.Log("1");
+    }
+    public void Test2()
+    {
+        Debug.Log("2");
+    }
+    public void Test3()
+    {
+        Debug.Log("3");
     }
 }

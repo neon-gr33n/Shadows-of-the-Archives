@@ -14,9 +14,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float RunSpeed = 4f;
     private Rigidbody2D rb;   
     private InputComponent inputs;
-    [SerializeField] private float movementSpeed = 4f;
+    private float movementSpeed = 4f;
     [SerializeField] private UnityEngine.Vector2 movement;
-    [SerializeField] private bool isRunning = false;
 
     public bool moveable = true;
 
@@ -24,25 +23,28 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         inputs = GetComponent<InputComponent>();
     }
-
+    
     void Update()
     {
         movement.x = inputs.Horizontal;
         movement.y = inputs.Vertical;
         movement = movement.normalized;
-
-        if (inputs.Run && !isRunning) {
-            isRunning = true;
-            movementSpeed = RunSpeed;
-        } else if(inputs.UnRun) {
-            isRunning = false;
-            movementSpeed = WalkSpeed;
-        }
+        movementSpeed = inputs.Run ? RunSpeed : WalkSpeed;
     }
 
     private void FixedUpdate() {
         if (moveable == true) {
           rb.MovePosition(rb.position + movement * movementSpeed * Time.deltaTime);
         }
+    }
+
+    public void FreezePlayer()
+    {
+        moveable = false;
+    }
+
+    public void UnFreezePlayer()
+    {
+        moveable = true;
     }
 }
