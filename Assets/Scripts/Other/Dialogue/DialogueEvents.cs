@@ -3,14 +3,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using Rewired;
 using TMPro;
-using System.Text.RegularExpressions;
-using static System.Net.Mime.MediaTypeNames;
 
 public class DialogueEvents : MonoBehaviour {
     public GameObject[] textDisplays;
     public GameObject[] Choices;
     public GameObject portrait;
-    public UnityEngine.UI.Image portraitImage;
+    public Image portraitImage;
     public Transform dialogueOffsetWithPortrait;
     public Sprite[] portraits;
 
@@ -140,18 +138,5 @@ public class DialogueEvents : MonoBehaviour {
         int value = int.Parse(parameters["value"]);
         
         GameManager.Instance.SetGameFlag(key, value);
-    }
-
-    public void Test1()
-    {
-        Debug.Log("1");
-    }
-    public void Test2()
-    {
-        Debug.Log("2");
-    }
-    public void Test3()
-    {
-        Debug.Log("3");
     }
 }

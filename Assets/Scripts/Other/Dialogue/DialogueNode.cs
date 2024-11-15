@@ -43,10 +43,10 @@ public class Action {
 [System.Serializable]
 public class Choice {
     public string text;
-    public DialogueNode nextNode;
+    public DialogueNode[] nextNode;
     public List<Action> actions;
 
-    public Choice(string text, DialogueNode nextNode) {
+    public Choice(string text, DialogueNode[] nextNode) {
         this.text = text;
         this.nextNode = nextNode;
         actions = new List<Action>();
